@@ -34,7 +34,11 @@ class Retriever:
         with open(self.config.image_metadata, "r", encoding="utf-8") as f:
             self.image_data = json.load(f)
 
-        self.clip_model = CLIPModel.from_pretrained(self.config.clip_model_id)
+        self.clip_model = CLIPModel.from_pretrained(
+            self.config.clip_model_id,
+            use_safetensors=True,
+            torch_dtype=torch.float32
+        )
         self.clip_processor = CLIPProcessor.from_pretrained(self.config.clip_model_id)
 
     def retrieve_by_text(self, query_text: str, top_k: int = 2):
