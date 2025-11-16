@@ -1,0 +1,909 @@
+{
+  "config": "configs/slake.yaml",
+  "split": "test",
+  "top_k": 3,
+  "accuracy": 0.3,
+  "total_examples": 50,
+  "predictions": [
+    {
+      "encounter_id": "slake_test_11934",
+      "question": "What modality is used to take this image?",
+      "gold": "CT",
+      "prediction": "MRI",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11934,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Modality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11935",
+      "question": "Which part of the body does this image belong to?",
+      "gold": "Chest",
+      "prediction": "Abdomen",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11935,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11936",
+      "question": "What is the main organ in the image?",
+      "gold": "Lung, Spinal Cord",
+      "prediction": "Liver, Heart, Spleen, Lung",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11936,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11937",
+      "question": "What is the largest organ in the picture?",
+      "gold": "Lung",
+      "prediction": "Liver",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11937,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Size",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11938",
+      "question": "Does the picture contain liver?",
+      "gold": "No",
+      "prediction": "No",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11938,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11939",
+      "question": "Does the picture contain lung?",
+      "gold": "Yes",
+      "prediction": "Yes",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11939,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11940",
+      "question": "Does the picture contain heart?",
+      "gold": "No",
+      "prediction": "No",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11940,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11941",
+      "question": "What diseases are included in the picture?",
+      "gold": "Lung Cancer",
+      "prediction": "Lung Cancer",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11941,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11942",
+      "question": "Is the lung healthy?",
+      "gold": "No",
+      "prediction": "Yes",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11942,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11943",
+      "question": "Where is/are the abnormality located?",
+      "gold": "Left Lung, Right",
+      "prediction": "Left Lung, Lower Right",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11943,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11944",
+      "question": "Which is the biggest in this image,lung,liver or heart?",
+      "gold": "Lung",
+      "prediction": "Liver",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11944,
+        "img_id": 102,
+        "img_name": "xmlab102/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Size",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11945",
+      "question": "What modality is used to take this image?",
+      "gold": "CT",
+      "prediction": "MRI",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11945,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Modality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11946",
+      "question": "Which part of the body does this image belong to?",
+      "gold": "Chest",
+      "prediction": "Abdomen",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11946,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11947",
+      "question": "What is the main organ in the image?",
+      "gold": "Lung",
+      "prediction": "Liver, Heart, Spleen, Lung",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11947,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11948",
+      "question": "What is the largest organ in the picture?",
+      "gold": "Lung",
+      "prediction": "Liver",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11948,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Size",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11949",
+      "question": "Does the picture contain liver?",
+      "gold": "No",
+      "prediction": "No",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11949,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11950",
+      "question": "Does the picture contain lung?",
+      "gold": "Yes",
+      "prediction": "Yes",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11950,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11951",
+      "question": "What diseases are included in the picture?",
+      "gold": "Lung Cancer",
+      "prediction": "Lung Cancer",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11951,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11952",
+      "question": "Is the lung healthy?",
+      "gold": "No",
+      "prediction": "Yes",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11952,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11953",
+      "question": "Where is/are the abnormality located?",
+      "gold": "Left Lung, Right",
+      "prediction": "Left Lung, Lower Right",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11953,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11954",
+      "question": "Which is the biggest in this image,lung,liver or heart?",
+      "gold": "Lung",
+      "prediction": "Liver",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11954,
+        "img_id": 103,
+        "img_name": "xmlab103/source.jpg",
+        "location": "Abdomen",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Size",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11955",
+      "question": "What modality is used to take this image?",
+      "gold": "CT",
+      "prediction": "MRI",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11955,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Modality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11956",
+      "question": "Which part of the body does this image belong to?",
+      "gold": "Chest",
+      "prediction": "Abdomen",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11956,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11957",
+      "question": "What is the main organ in the image?",
+      "gold": "Lung",
+      "prediction": "Liver, Heart, Spleen, Lung",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11957,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11958",
+      "question": "What is the largest organ in the picture?",
+      "gold": "Lung",
+      "prediction": "Liver",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11958,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Size",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11959",
+      "question": "Does the picture contain liver?",
+      "gold": "No",
+      "prediction": "No",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11959,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11960",
+      "question": "Does the picture contain lung?",
+      "gold": "Yes",
+      "prediction": "Yes",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11960,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11961",
+      "question": "Does the picture contain heart?",
+      "gold": "No",
+      "prediction": "No",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11961,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11962",
+      "question": "What diseases are included in the picture?",
+      "gold": "Lung Cancer",
+      "prediction": "Lung Cancer",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11962,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11963",
+      "question": "Is the lung healthy?",
+      "gold": "No",
+      "prediction": "Yes",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11963,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11964",
+      "question": "Where is/are the abnormality located?",
+      "gold": "Right Lung, Left",
+      "prediction": "Left Lung, Lower Right",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11964,
+        "img_id": 105,
+        "img_name": "xmlab105/source.jpg",
+        "location": "Lung",
+        "modality": "CT",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11965",
+      "question": "What modality is used to take this image?",
+      "gold": "X-Ray",
+      "prediction": "MRI",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11965,
+        "img_id": 124,
+        "img_name": "xmlab124/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Modality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11966",
+      "question": "Which part of the body does this image belong to?",
+      "gold": "Chest",
+      "prediction": "Abdomen",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11966,
+        "img_id": 124,
+        "img_name": "xmlab124/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11967",
+      "question": "What is the largest organ in the picture?",
+      "gold": "Lung",
+      "prediction": "Liver",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11967,
+        "img_id": 124,
+        "img_name": "xmlab124/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Size",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11968",
+      "question": "What diseases are included in the picture?",
+      "gold": "Cardiomegaly",
+      "prediction": "Lung Cancer",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11968,
+        "img_id": 124,
+        "img_name": "xmlab124/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11969",
+      "question": "Where is/are the abnormality located?",
+      "gold": "Center",
+      "prediction": "Left Lung, Lower Right",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11969,
+        "img_id": 124,
+        "img_name": "xmlab124/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11970",
+      "question": "Are there abnormalities in this image?",
+      "gold": "Yes",
+      "prediction": "None",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11970,
+        "img_id": 124,
+        "img_name": "xmlab124/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11971",
+      "question": "Which organ is abnormal, heart or lung?",
+      "gold": "Heart",
+      "prediction": "Lung, Heart",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11971,
+        "img_id": 124,
+        "img_name": "xmlab124/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11972",
+      "question": "What modality is used to take this image?",
+      "gold": "MRI",
+      "prediction": "MRI",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11972,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "OPEN",
+        "content_type": "Modality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11973",
+      "question": "Which part of the body does this image belong to?",
+      "gold": "Abdomen",
+      "prediction": "Abdomen",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11973,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11974",
+      "question": "What is the mr weighting in this image?",
+      "gold": "T2",
+      "prediction": "T2",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11974,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "OPEN",
+        "content_type": "Modality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11975",
+      "question": "Is there any abnormality in the spleen?",
+      "gold": "No",
+      "prediction": "Left Lung, Lower Right",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11975,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11976",
+      "question": "Does the liver look normal?",
+      "gold": "Yes",
+      "prediction": "No",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11976,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11977",
+      "question": "Does the picture contain liver?",
+      "gold": "Yes",
+      "prediction": "No",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11977,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11978",
+      "question": "Does the picture contain kidney?",
+      "gold": "No",
+      "prediction": "No",
+      "match": true,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11978,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11979",
+      "question": "Does the picture contain spleen?",
+      "gold": "Yes",
+      "prediction": "No",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11979,
+        "img_id": 13,
+        "img_name": "xmlab13/source.jpg",
+        "location": "Abdomen",
+        "modality": "MRI",
+        "answer_type": "CLOSED",
+        "content_type": "Organ",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11980",
+      "question": "What modality is used to take this image?",
+      "gold": "X-Ray",
+      "prediction": "MRI",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11980,
+        "img_id": 130,
+        "img_name": "xmlab130/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Modality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11981",
+      "question": "Which part of the body does this image belong to?",
+      "gold": "Chest",
+      "prediction": "Abdomen",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11981,
+        "img_id": 130,
+        "img_name": "xmlab130/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Position",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11982",
+      "question": "Are there abnormalities in this image?",
+      "gold": "Yes",
+      "prediction": "None",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11982,
+        "img_id": 130,
+        "img_name": "xmlab130/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality",
+        "base_type": "vqa"
+      }
+    },
+    {
+      "encounter_id": "slake_test_11983",
+      "question": "What is the largest organ in the picture?",
+      "gold": "Lung",
+      "prediction": "Liver",
+      "match": false,
+      "config": "configs/slake.yaml",
+      "metadata": {
+        "qid": 11983,
+        "img_id": 130,
+        "img_name": "xmlab130/source.jpg",
+        "location": "Lung",
+        "modality": "X-Ray",
+        "answer_type": "OPEN",
+        "content_type": "Size",
+        "base_type": "vqa"
+      }
+    }
+  ]
+}
