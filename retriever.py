@@ -1,5 +1,6 @@
 import json
 from dataclasses import dataclass
+from typing import Optional
 
 import faiss
 import numpy as np
@@ -20,7 +21,7 @@ class RetrieverConfig:
 
 
 class Retriever:
-    def __init__(self, config: RetrieverConfig | None = None):
+    def __init__(self, config: Optional[RetrieverConfig] = None):
         self.config = config or RetrieverConfig()
 
         # text-based retriever
@@ -29,13 +30,19 @@ class Retriever:
         with open(self.config.text_metadata, "r", encoding="utf-8") as f:
             self.text_data = json.load(f)
 
-        # image-based retriever
-        self.image_index = faiss.read_index(self.config.image_index)
-        with open(self.config.image_metadata, "r", encoding="utf-8") as f:
-            self.image_data = json.load(f)
+        # image-based retriever (optional - only load if index exists)
+        self.image_index = None
+        self.image_data = None
+        self.clip_model = None
+        self.clip_processor = None
 
-        self.clip_model = CLIPModel.from_pretrained(self.config.clip_model_id)
-        self.clip_processor = CLIPProcessor.from_pretrained(self.config.clip_model_id)
+        import os
+        if os.path.exists(self.config.image_index) and os.path.exists(self.config.image_metadata):
+            self.image_index = faiss.read_index(self.config.image_index)
+            with open(self.config.image_metadata, "r", encoding="utf-8") as f:
+                self.image_data = json.load(f)
+            self.clip_model = CLIPModel.from_pretrained(self.config.clip_model_id)
+            self.clip_processor = CLIPProcessor.from_pretrained(self.config.clip_model_id)
 
     def retrieve_by_text(self, query_text: str, top_k: int = 2):
         vec = self.text_model.encode([query_text], normalize_embeddings=True).astype("float32")
@@ -43,6 +50,8 @@ class Retriever:
         return [self.text_data[i] for i in I[0]]
 
     def retrieve_by_image(self, image: Image.Image, top_k: int = 2):
+        if self.image_index is None or self.clip_model is None:
+            raise RuntimeError("Image index not available. Build image index first.")
         inputs = self.clip_processor(images=image, return_tensors="pt")
         with torch.no_grad():
             vec = self.clip_model.get_image_features(**inputs).cpu().numpy()
@@ -51,6 +60,8 @@ class Retriever:
         return [self.image_data[i]["source"] for i in I[0]]
 
     def retrieve_hybrid(self, query_text: str, query_image: Image.Image, top_k: int = 2, alpha: float = 0.5):
+        if self.image_index is None or self.clip_model is None:
+            raise RuntimeError("Image index not available. Build image index first.")
         # Encode text
         text_vec = self.text_model.encode([query_text], normalize_embeddings=True).astype("float32")
         D_text, I_text = self.text_index.search(text_vec, top_k * 2)
