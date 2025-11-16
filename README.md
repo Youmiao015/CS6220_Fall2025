@@ -35,3 +35,42 @@ This repository adapts the [MasonNLP](https://github.com/AHMRezaul/MEDIQA-WV-202
    ```
 
 Results and observations should be logged in `experiments/<name>.md`.
+
+## SLAKE Dataset (Alternative)
+
+The SLAKE dataset is a larger alternative to VQA-RAD with 14,028 samples across medical imaging modalities.
+
+- **Source**: [BoKelvin/SLAKE](https://huggingface.co/datasets/BoKelvin/SLAKE)
+- **Splits**: train (9,840), validation (2,100), test (2,090)
+- **Features**: Multi-modal medical VQA with rich metadata (anatomical location, modality, question types)
+
+### Quick Start with SLAKE
+
+1. **Prepare data** (test with small subset first)
+   ```
+   python scripts/prepare_slake.py --splits train validation test --limit 100
+   ```
+   This downloads 100 samples per split for quick testing. Omit `--limit` for full dataset.
+
+2. **Build indexes**
+   ```
+   python build_corpus.py --train-file dataset/slake/json_files/train.json \
+       --index-file retriever/slake/text.index \
+       --texts-file retriever/slake/texts.json
+   python build_image_index.py --img-dir dataset/slake/images \
+       --train-file dataset/slake/json_files/train.json \
+       --index-out retriever/slake/image.index \
+       --metadata-out retriever/slake/image_texts.json
+   ```
+
+3. **Evaluate**
+   ```
+   python eval_slake.py --config configs/slake.yaml \
+       --split test --top-k 3 --limit 50 --output result/slake_test_predictions.json
+   ```
+   Use `--limit 50` for quick testing, omit for full evaluation.
+
+### Notes
+- SLAKE is 6.25× larger than VQA-RAD (14,028 vs 2,244 samples)
+- Building full indexes may take 3-4 hours on CPU; consider using GPU (Colab) for faster processing
+- The dataset includes additional metadata (location, modality, question type) stored in the `metadata` field
