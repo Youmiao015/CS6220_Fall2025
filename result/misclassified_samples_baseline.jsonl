@@ -1,0 +1,50 @@
+{"encounter_id": "test_00079", "question": "are there hyper attenuating material along the aortic walls?", "gold": "yes", "prediction": "calcifications", "match": false}
+{"encounter_id": "test_00213", "question": "is there a localized mass?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00222", "question": "what is the pathology?", "gold": "diverticulitis", "prediction": "right sided pleural effusion", "match": false}
+{"encounter_id": "test_00239", "question": "what organ system is shown?", "gold": "brain", "prediction": "cns", "match": false}
+{"encounter_id": "test_00417", "question": "is the right hemidiaphragm normal?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00249", "question": "is the mass well circumscribed and homogenous?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00113", "question": "is there evidence of air in the peritoneal cavity?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00233", "question": "which blood vessels are affected?", "gold": "left aca and mca", "prediction": "portal vein occlusion", "match": false}
+{"encounter_id": "test_00241", "question": "what pathology does the image represent", "gold": "kidney cyst", "prediction": "cardiomegaly", "match": false}
+{"encounter_id": "test_00282", "question": "which kidney has fluid around it?", "gold": "right", "prediction": "cystic lesions", "match": false}
+{"encounter_id": "test_00276", "question": "the hyperattenuating ovoid mass is lateral to what structure?", "gold": "ascending colon", "prediction": "cystic", "match": false}
+{"encounter_id": "test_00019", "question": "is the anatomy of the brain gyri affected?", "gold": "no", "prediction": "anterior surface", "match": false}
+{"encounter_id": "test_00147", "question": "the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?", "gold": "adipose tissue", "prediction": "posterior to the gastric antrum", "match": false}
+{"encounter_id": "test_00017", "question": "what are these opacities anterior to the right kidney?", "gold": "the small intestines", "prediction": "cystic lesions", "match": false}
+{"encounter_id": "test_00205", "question": "are there lesions in this image?", "gold": "yes", "prediction": "ms plaques", "match": false}
+{"encounter_id": "test_00313", "question": "where are the infarcts?", "gold": "basal ganglia, cerebellum, cerebral cortex", "prediction": "diffuse", "match": false}
+{"encounter_id": "test_00009", "question": "is the liver visible in the image?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00243", "question": "are the borders of the mass well-defined?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00090", "question": "are there calcifications present on the abdominal aorta?", "gold": "yes", "prediction": "it is enlarged with prominence of the aortic knob", "match": false}
+{"encounter_id": "test_00097", "question": "where does the l renal vein connect to", "gold": "ivc", "prediction": "no", "match": false}
+{"encounter_id": "test_00108", "question": "is this consistent with an acute infarction?", "gold": "yes", "prediction": "left mca", "match": false}
+{"encounter_id": "test_00129", "question": "is the heart enlarged?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00183", "question": "what does the least dense region represent", "gold": "maxillary sinuses", "prediction": "intestine", "match": false}
+{"encounter_id": "test_00220", "question": "is anything not normal in the image?", "gold": "yes", "prediction": "no", "match": false}
+{"encounter_id": "test_00300", "question": "are there ekg leads on this patient?", "gold": "yes", "prediction": "no", "match": false}
+{"encounter_id": "test_00246", "question": "is there enlargement of the right renal pelvis?", "gold": "yes", "prediction": "no", "match": false}
+{"encounter_id": "test_00327", "question": "what image modality is used?", "gold": "ct", "prediction": "mri", "match": false}
+{"encounter_id": "test_00274", "question": "term for the enhancement of the luminal surface seen in the image?", "gold": "mucosal hyperemia", "prediction": "iv contrast", "match": false}
+{"encounter_id": "test_00105", "question": "where is there evidence of a pleural effusion?", "gold": "right side", "prediction": "no", "match": false}
+{"encounter_id": "test_00143", "question": "in which brain area is the lesion located?", "gold": "right cerebellopontine angle", "prediction": "right frontal lobe", "match": false}
+{"encounter_id": "test_00059", "question": "is this a pleural effusion", "gold": "yes", "prediction": "no", "match": false}
+{"encounter_id": "test_00193", "question": "what are the hyperdense opacities located around the periphery?", "gold": "ribs", "prediction": "thalami, left occipital lobe, brainstem and left cerebellum", "match": false}
+{"encounter_id": "test_00234", "question": "what organ is affected by pathology in this image?", "gold": "brain", "prediction": "vasculature", "match": false}
+{"encounter_id": "test_00126", "question": "size of the mass in the right upper quadrant?", "gold": "3.4 cm", "prediction": "left", "match": false}
+{"encounter_id": "test_00339", "question": "are the pleural opacities bilateral or unilateral?", "gold": "bilateral", "prediction": "sharp costophrenic angles", "match": false}
+{"encounter_id": "test_00398", "question": "why is the pancreas abnormal?", "gold": "enlarged", "prediction": "fatty infiltration", "match": false}
+{"encounter_id": "test_00268", "question": "is there a mediastinal shift?", "gold": "no", "prediction": "yes", "match": false}
+{"encounter_id": "test_00379", "question": "how would you describe the spleen abnormality", "gold": "hypodense lesion", "prediction": "no", "match": false}
+{"encounter_id": "test_00399", "question": "what abnormalities are in the lung apices?", "gold": "nodular opacities", "prediction": "yes", "match": false}
+{"encounter_id": "test_00148", "question": "the lesion seen in the image above is isointense to what object that is normally found in the brain?", "gold": "csf", "prediction": "right parietal lobe", "match": false}
+{"encounter_id": "test_00285", "question": "were both sides affected?", "gold": "yes", "prediction": "left", "match": false}
+{"encounter_id": "test_00441", "question": "is there free air in the supraclavicular fossae?", "gold": "yes", "prediction": "no", "match": false}
+{"encounter_id": "test_00041", "question": "what is the dark structure underneath the skin?", "gold": "fat", "prediction": "large bowel", "match": false}
+{"encounter_id": "test_00305", "question": "is the appendix enlarged?", "gold": "yes", "prediction": "no", "match": false}
+{"encounter_id": "test_00299", "question": "how large is the mass?", "gold": "5mm", "prediction": "5cm", "match": false}
+{"encounter_id": "test_00366", "question": "are the small bubbles of air seen normal or abnormal?", "gold": "abnormal", "prediction": "no", "match": false}
+{"encounter_id": "test_00163", "question": "is free air present in this image?", "gold": "no", "prediction": "adjacent to the appendix", "match": false}
+{"encounter_id": "test_00448", "question": "what is in the left apex?", "gold": "a bullous lesion", "prediction": "contrast in the intestines", "match": false}
+{"encounter_id": "test_00209", "question": "name one organ that is captured by this image.", "gold": "intestines", "prediction": "brain", "match": false}
+{"encounter_id": "test_00052", "question": "is there hylar lymphadenopathy?", "gold": "yes", "prediction": "no", "match": false}

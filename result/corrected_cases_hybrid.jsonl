@@ -1,0 +1,8 @@
+{"encounter_id": "test_00006", "question": "is the colon more prominent on the patient's right or left side?", "gold": "left", "prediction": "left side", "similarity": 1.0, "threshold": 0.5}
+{"encounter_id": "test_00080", "question": "what type of mri sequence is displayed in this image?", "gold": "t2 weighted mri", "prediction": "t2 weighted", "similarity": 0.667, "threshold": 0.5}
+{"encounter_id": "test_00085", "question": "in what plane was this image taken?", "gold": "axial plane", "prediction": "axial", "similarity": 0.5, "threshold": 0.5}
+{"encounter_id": "test_00160", "question": "what imaging modality was used to take this image?", "gold": "xray", "prediction": "pa xray", "similarity": 1.0, "threshold": 0.5}
+{"encounter_id": "test_00310", "question": "what modality was used for this image?", "gold": "mri", "prediction": "mri - t2 weighted", "similarity": 1.0, "threshold": 0.5}
+{"encounter_id": "test_00332", "question": "is the gastric bubble shown on the left or right side of the patient?", "gold": "right side", "prediction": "underneath the right hemidiaphragm", "similarity": 0.5, "threshold": 0.5}
+{"encounter_id": "test_00405", "question": "what lobe is the lesion located in?", "gold": "right temporal lobe", "prediction": "upper right lobe", "similarity": 0.667, "threshold": 0.5}
+{"encounter_id": "test_00419", "question": "what kind of image is this?", "gold": "x-ray", "prediction": "chest x-ray", "similarity": 1.0, "threshold": 0.5}

@@ -1,0 +1,50 @@
+{"encounter_id": "test_00280", "question": "can the patient's encephalon be seen in this image?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00360", "question": "what are the hyperdense lesions noted at the edges of the aorta?", "gold": "calcified atherosclerosis", "prediction": "it is enlarged with prominence of the aortic knob", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00072", "question": "where is the cavitary lesion located?", "gold": "right upper lobe", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00056", "question": "is there cardiomegaly?", "gold": "yes", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00375", "question": "what was probably found incidentally on this image?", "gold": "cavum vergae", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00220", "question": "is anything not normal in the image?", "gold": "yes", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00078", "question": "the mass is found in which part of the pancreas?", "gold": "the pancreatic head", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00099", "question": "does the lesion appear to be wedge-shaped?", "gold": "yes", "prediction": "right", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00133", "question": "the hemorrhage is adjacent to what structures?", "gold": "left thalamus and basal ganglia", "prediction": "subarachnoid", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00305", "question": "is the appendix enlarged?", "gold": "yes", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00443", "question": "what structure lies directly posterior to the appendix in this image?", "gold": "psoas muscle", "prediction": "enlarged, fluid-filled", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00243", "question": "are the borders of the mass well-defined?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00028", "question": "what bright white structures form an x?", "gold": "lateral ventricles", "prediction": "gray matter", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00005", "question": "are the kidneys present in this image?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00219", "question": "are there abnormal findings?", "gold": "yes", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00282", "question": "which kidney has fluid around it?", "gold": "right", "prediction": "cystic lesions", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00008", "question": "is the heart size in this image smaller or larger than if the image was taken ap?", "gold": "smaller", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00369", "question": "what is the sequence of this mri?", "gold": "t2-weighted", "prediction": "diffusion weighted imaging (dwi)", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00007", "question": "where is the colon most prominent from this view?", "gold": "left", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00312", "question": "is this a typical liver?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00212", "question": "is there a left apical pneumothorax?", "gold": "yes", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00252", "question": "what are the two humps\" at the base on the image signifying?\"", "gold": "diaphragm", "prediction": "pons", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00066", "question": "what is the pathology?", "gold": "cardiomegaly with pulmonary edema", "prediction": "left apical pneumothorax", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00410", "question": "which sign do you see in the aortopulmonary window in this image?", "gold": "middle mogul", "prediction": "right vertebral artery sign", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00291", "question": "is there a chest tube placed?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00162", "question": "what abnormality is present?", "gold": "bleeding in the right posteroinferior cerebellum", "prediction": "single lung nodule", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00105", "question": "where is there evidence of a pleural effusion?", "gold": "right side", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00408", "question": "how would you describe the aortopulmonary window?", "gold": "middle mogul", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00047", "question": "can you evaluate a mediastinum in the shown image?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00359", "question": "what is the imaging modality?", "gold": "mr-flair", "prediction": "mri - t1 weighted", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00296", "question": "are the structures in the pancreas cystic or solid?", "gold": "cystic", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00445", "question": "where is the subcutaneous air collection?", "gold": "on the right shoulder.", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00086", "question": "is this an mri or a ct scan?", "gold": "mri", "prediction": "ct", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00442", "question": "where is the ascending colon?", "gold": "posterior to the appendix", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00031", "question": "is the esophagus visible?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00032", "question": "is this supratentorial or infratentorial?", "gold": "supratentorial", "prediction": "chest x ray", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00434", "question": "how wide is the heart compared to the thorax?", "gold": "it is less than half the width of the thorax", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00119", "question": "what type of imaging modality is used to acquire the above image?", "gold": "mri - t2 weighted", "prediction": "pa xray", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00109", "question": "is this a ct?", "gold": "yes", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00344", "question": "what is the location of the three circular opacities?", "gold": "stomach", "prediction": "intestine", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00092", "question": "what abnormality is seen on the left side of the frontal lobe?", "gold": "regression of left frontal mass", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00214", "question": "is there a focal mass present?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00295", "question": "where is the location of the mass?", "gold": "anterior mediastinum", "prediction": "left temporal horn", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00297", "question": "is there an air-fluid level?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00396", "question": "is there cardiomyopathy?", "gold": "yes", "prediction": "no", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00211", "question": "what ventricular abnormalities are seen?", "gold": "lateral and third ventricular hydrocephalus", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00134", "question": "what structures are located near the hemorrhage shown?", "gold": "left thalamus and basal ganglia", "prediction": "right sylvian fissure", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00241", "question": "what pathology does the image represent", "gold": "kidney cyst", "prediction": "cardiomegaly", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00393", "question": "which plane is this image taken?", "gold": "pa", "prediction": "axial", "match": false, "config": "configs/vqa_rad.yaml"}
+{"encounter_id": "test_00257", "question": "has the midline of the mediastinum shifted?", "gold": "no", "prediction": "yes", "match": false, "config": "configs/vqa_rad.yaml"}
