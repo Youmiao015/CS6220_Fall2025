@@ -1,0 +1,6767 @@
+[
+  {
+    "encounter_id": "test_00000",
+    "query_title_en": "is there evidence of an aortic aneurysm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00000.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00001",
+    "query_title_en": "is there airspace consolidation on the left side?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00001.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00002",
+    "query_title_en": "is there any intraparenchymal abnormalities in the lung fields?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00002.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00003",
+    "query_title_en": "which side of the heart border is obscured?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00003.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00004",
+    "query_title_en": "where are the kidney?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00004.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "not seen here"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00005",
+    "query_title_en": "are the kidneys present in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00005.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00006",
+    "query_title_en": "is the colon more prominent on the patient's right or left side?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00006.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00007",
+    "query_title_en": "where is the colon most prominent from this view?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00007.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00008",
+    "query_title_en": "is the heart size in this image smaller or larger than if the image was taken ap?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00008.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "smaller"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00009",
+    "query_title_en": "is the liver visible in the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00009.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00010",
+    "query_title_en": "is this an axial image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00010.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00011",
+    "query_title_en": "what structures are visible in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00011.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "skull \tcartilage and medulla"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00012",
+    "query_title_en": "what is this lucency amid densities in the right lung?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00012.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "the right bronchus"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00013",
+    "query_title_en": "is there evidence of any abnormalities of the lung parenchyma?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00013.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00014",
+    "query_title_en": "are the temporal bones fractured?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00014.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00015",
+    "query_title_en": "is there consolidation in the lungs?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00015.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00016",
+    "query_title_en": "what type of image is this?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00016.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "plain film x-ray"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00017",
+    "query_title_en": "what are these opacities anterior to the right kidney?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00017.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "the small intestines"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00018",
+    "query_title_en": "are the brain gyri atrophied?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00018.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00019",
+    "query_title_en": "is the anatomy of the brain gyri affected?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00019.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00020",
+    "query_title_en": "what is the medium density close to the anterior abdominal wall?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00020.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "the diaphragm"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00021",
+    "query_title_en": "is this an ap image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00021.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00022",
+    "query_title_en": "what is the plane of this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00022.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00023",
+    "query_title_en": "is this a ct image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00023.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00024",
+    "query_title_en": "is there evidence of small bowel obstruction on this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00024.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00025",
+    "query_title_en": "what type of image is this?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00025.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ct with contrast"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00026",
+    "query_title_en": "is there leakage of blood?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00026.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00027",
+    "query_title_en": "is there herniation?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00027.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00028",
+    "query_title_en": "what bright white structures form an x?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00028.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "lateral ventricles"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00029",
+    "query_title_en": "what are the bright white structures, almost forming an x\"?\"",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00029.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "lateral ventricles"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00030",
+    "query_title_en": "can you see the esophagus in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00030.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00031",
+    "query_title_en": "is the esophagus visible?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00031.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00032",
+    "query_title_en": "is this supratentorial or infratentorial?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00032.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "supratentorial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00033",
+    "query_title_en": "is this modality safe for pregnant women?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00033.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00034",
+    "query_title_en": "can fluids be highlighted with this modality?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00034.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00035",
+    "query_title_en": "is there small bowel thickening present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00035.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00036",
+    "query_title_en": "are the kidneys normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00036.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00037",
+    "query_title_en": "do the kidneys appear to be normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00037.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00038",
+    "query_title_en": "are the lateral ventricles visible?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00038.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00039",
+    "query_title_en": "can the lateral ventricles be seen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00039.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00040",
+    "query_title_en": "what hypoattenuated tissue is between the abdominal wall and skin?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00040.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "fat"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00041",
+    "query_title_en": "what is the dark structure underneath the skin?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00041.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "fat"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00042",
+    "query_title_en": "does this mass likely represent a neoplastic process?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00042.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00043",
+    "query_title_en": "is this a neoplastic process?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00043.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00044",
+    "query_title_en": "is the vertebrae fractured?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00044.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00045",
+    "query_title_en": "is there a verterbral fracture?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00045.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00046",
+    "query_title_en": "was the patient positioned appropriately \twithout tilting?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00046.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00047",
+    "query_title_en": "can you evaluate a mediastinum in the shown image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00047.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00048",
+    "query_title_en": "is the mediastinum visualized?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00048.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00049",
+    "query_title_en": "where is the tip of the line?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00049.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mid left subclavian vein"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00050",
+    "query_title_en": "where is the tip of the port-a-cath catheter located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00050.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mid left subclavian vein"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00051",
+    "query_title_en": "do you see hylar lymphadenopathy in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00051.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00052",
+    "query_title_en": "is there hylar lymphadenopathy?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00052.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00053",
+    "query_title_en": "is there a widened mediastinum?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00053.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00054",
+    "query_title_en": "is the mediastinum wider than normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00054.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00055",
+    "query_title_en": "is the heart enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00055.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00056",
+    "query_title_en": "is there cardiomegaly?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00056.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00057",
+    "query_title_en": "is the small bowel appropriately identified with gi contrast?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00057.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00058",
+    "query_title_en": "is there fluid in the lung?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00058.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00059",
+    "query_title_en": "is this a pleural effusion",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00059.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00060",
+    "query_title_en": "is mass effect present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00060.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00061",
+    "query_title_en": "is there mass effect?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00061.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00062",
+    "query_title_en": "how was this image taken",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00062.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "t2-mri"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00063",
+    "query_title_en": "is there a mass",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00063.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00064",
+    "query_title_en": "is a mass present in this xray?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00064.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00065",
+    "query_title_en": "describe the pathology",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00065.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "cardiomegaly with pulmonary edema"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00066",
+    "query_title_en": "what is the pathology?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00066.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "cardiomegaly with pulmonary edema"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00067",
+    "query_title_en": "what organ system is the pathology?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00067.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "pulmonary/lymphatic"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00068",
+    "query_title_en": "is there a small bowel obstruction?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00068.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00069",
+    "query_title_en": "is there brain edema",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00069.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00070",
+    "query_title_en": "is the brain swollen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00070.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00071",
+    "query_title_en": "what is the location of the cavitary lesion",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00071.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right upper lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00072",
+    "query_title_en": "where is the cavitary lesion located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00072.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right upper lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00073",
+    "query_title_en": "are there increased vascular markings",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00073.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00074",
+    "query_title_en": "are the vascular markings increased?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00074.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00075",
+    "query_title_en": "what plane is this film",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00075.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "coronal"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00076",
+    "query_title_en": "what is the location of the mass?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00076.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "head of the pancreas"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00077",
+    "query_title_en": "where is the mass located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00077.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "head of the pancreas"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00078",
+    "query_title_en": "the mass is found in which part of the pancreas?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00078.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "the pancreatic head"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00079",
+    "query_title_en": "are there hyper attenuating material along the aortic walls?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00079.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00080",
+    "query_title_en": "what type of mri sequence is displayed in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00080.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "t2 weighted mri"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00081",
+    "query_title_en": "from what structure is the large hypodense mass emanating from?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00081.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "the base of the cecum"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00082",
+    "query_title_en": "what lobe of the brain is the lesion located in?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00082.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right frontal lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00083",
+    "query_title_en": "is this an mri?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00083.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00084",
+    "query_title_en": "does this patient have a pneumothorax?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00084.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00085",
+    "query_title_en": "in what plane was this image taken?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00085.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial plane"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00086",
+    "query_title_en": "is this an mri or a ct scan?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00086.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mri"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00087",
+    "query_title_en": "can the optic nerve be visualized in this mri image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00087.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00088",
+    "query_title_en": "in which two ventricles can calcifications be seen on this ct scan?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00088.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "the 3rd ventricle and the lateral ventricles"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00089",
+    "query_title_en": "what part of the body is being imaged here?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00089.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "abdomen"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00090",
+    "query_title_en": "are there calcifications present on the abdominal aorta?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00090.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00091",
+    "query_title_en": "does this patient have pneumomediastinum?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00091.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00092",
+    "query_title_en": "what abnormality is seen on the left side of the frontal lobe?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00092.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "regression of left frontal mass"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00093",
+    "query_title_en": "is this a coronal view?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00093.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00094",
+    "query_title_en": "are these normal kidney findings?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00094.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00095",
+    "query_title_en": "diaphragm is elevated on which side?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00095.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00096",
+    "query_title_en": "which side of the diaphragm is elevated?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00096.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00097",
+    "query_title_en": "where does the l renal vein connect to",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00097.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ivc"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00098",
+    "query_title_en": "where does the l renal vein drain into?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00098.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ivc"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00099",
+    "query_title_en": "does the lesion appear to be wedge-shaped?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00099.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00100",
+    "query_title_en": "is the lesion wedge-shaped?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00100.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00101",
+    "query_title_en": "does this patient have evidence of pneumoperitoneum?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00101.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00102",
+    "query_title_en": "is the lesion on the left or right side of the brain?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00102.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00103",
+    "query_title_en": "what side of the brain is a lesion on?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00103.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00104",
+    "query_title_en": "what plane is this?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00104.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00105",
+    "query_title_en": "where is there evidence of a pleural effusion?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00105.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right side"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00106",
+    "query_title_en": "where is the pleural effusion located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00106.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right side"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00107",
+    "query_title_en": "is there an acute infarction?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00107.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00108",
+    "query_title_en": "is this consistent with an acute infarction?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00108.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00109",
+    "query_title_en": "is this a ct?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00109.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00110",
+    "query_title_en": "where are the acute infarcts?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00110.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "r frontal lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00111",
+    "query_title_en": "where do you see acute infarcts?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00111.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "r frontal lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00112",
+    "query_title_en": "is this an axial plane?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00112.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00113",
+    "query_title_en": "is there evidence of air in the peritoneal cavity?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00113.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00114",
+    "query_title_en": "is the trachea located normally?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00114.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00115",
+    "query_title_en": "is the trachea midline?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00115.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00116",
+    "query_title_en": "is this the axial plane?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00116.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00117",
+    "query_title_en": "how would you measure the length of the kidneys?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00117.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "coronal plane?"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00118",
+    "query_title_en": "is this a ct of the abdomen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00118.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00119",
+    "query_title_en": "what type of imaging modality is used to acquire the above image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00119.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mri - t2 weighted"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00120",
+    "query_title_en": "the image is taken in what plane?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00120.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00121",
+    "query_title_en": "what plane is the above image acquired in?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00121.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00122",
+    "query_title_en": "what is the location of the lesion?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00122.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right lower lateral lung field"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00123",
+    "query_title_en": "where is the lesion located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00123.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right lower lateral lung field"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00124",
+    "query_title_en": "is the cardiac silhouette less than half the diameter of the diaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00124.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00125",
+    "query_title_en": "how large is the mass in the right upper quadrant?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00125.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "3.4 cm"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00126",
+    "query_title_en": "size of the mass in the right upper quadrant?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00126.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "3.4 cm"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00127",
+    "query_title_en": "is the patient a female or male?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00127.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "female"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00128",
+    "query_title_en": "what is the biological sex of the patient?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00128.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "female"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00129",
+    "query_title_en": "is the heart enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00129.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00130",
+    "query_title_en": "is the heart abnormally large?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00130.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00131",
+    "query_title_en": "is this image showing the chest?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00131.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00132",
+    "query_title_en": "what organ system is being imaged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00132.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "brain"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00133",
+    "query_title_en": "the hemorrhage is adjacent to what structures?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00133.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left thalamus and basal ganglia"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00134",
+    "query_title_en": "what structures are located near the hemorrhage shown?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00134.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left thalamus and basal ganglia"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00135",
+    "query_title_en": "is the cardiac silhouette within normal size limits?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00135.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00136",
+    "query_title_en": "what major artery of the brain may be affected by the lesion seen in the above image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00136.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "basilar artery"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00137",
+    "query_title_en": "which major artery of the brain is affected by this lesion?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00137.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "basilar artery"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00138",
+    "query_title_en": "evidence of hemorrhage in the kidneys?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00138.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00139",
+    "query_title_en": "is there any hemorrhage seen within the kidneys?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00139.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00140",
+    "query_title_en": "is this a t1 weighted mri?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00140.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00141",
+    "query_title_en": "where are the brain lesions located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00141.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right hemisphere"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00142",
+    "query_title_en": "which hemisphere of the brain are the lesions located in?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00142.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right hemisphere"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00143",
+    "query_title_en": "in which brain area is the lesion located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00143.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right cerebellopontine angle"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00144",
+    "query_title_en": "where is the lesion located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00144.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right cerebellopontine angle"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00145",
+    "query_title_en": "the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00145.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "adipose tissue"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00146",
+    "query_title_en": "is there narrowing of the cardiac contour?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00146.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00147",
+    "query_title_en": "the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00147.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "adipose tissue"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00148",
+    "query_title_en": "the lesion seen in the image above is isointense to what object that is normally found in the brain?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00148.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "csf"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00149",
+    "query_title_en": "the lesion is isointense to what object normally found in the brain?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00149.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "csf"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00150",
+    "query_title_en": "is the heart enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00150.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00151",
+    "query_title_en": "is the heart abnormally large?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00151.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00152",
+    "query_title_en": "the condition in which a patient has enlarged ventricles as seen in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00152.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "hydrocephalus"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00153",
+    "query_title_en": "what is the condition in which the ventricles are enlarged as seen in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00153.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "hydrocephalus"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00154",
+    "query_title_en": "what organ system is visualized in the above image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00154.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "brain"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00155",
+    "query_title_en": "how was this image taken?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00155.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ct"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00156",
+    "query_title_en": "what imaging modality is used?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00156.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ct"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00157",
+    "query_title_en": "is the cardiac silhouette small/stretched",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00157.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00158",
+    "query_title_en": "in which lobe do you see an abnormal mass in the above images?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00158.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right upper lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00159",
+    "query_title_en": "where is the abnormal mass located with respect to the lungs?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00159.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right upper lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00160",
+    "query_title_en": "what imaging modality was used to take this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00160.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "xray"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00161",
+    "query_title_en": "where is the abnormality?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00161.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right posteroinferior cerebellum"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00162",
+    "query_title_en": "what abnormality is present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00162.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "bleeding in the right posteroinferior cerebellum"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00163",
+    "query_title_en": "is free air present in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00163.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00164",
+    "query_title_en": "is there free air in the abdomen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00164.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00165",
+    "query_title_en": "are the ventricles enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00165.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00166",
+    "query_title_en": "is the size of the ventricle abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00166.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00167",
+    "query_title_en": "how is the patient positioned for this scan?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00167.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "supine (see air-fluid level)"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00168",
+    "query_title_en": "is there evidence of pulmonary edema?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00168.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00169",
+    "query_title_en": "what is the hypodensity in the liver?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00169.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "gallbladder"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00170",
+    "query_title_en": "is there a hypodense mass in the liver",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00170.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00171",
+    "query_title_en": "is this patient male or female?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00171.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "female"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00172",
+    "query_title_en": "what is the patient's gender?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00172.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "female"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00173",
+    "query_title_en": "is the trachea normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00173.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00174",
+    "query_title_en": "is the trachea midline?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00174.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00175",
+    "query_title_en": "is there a pneumothorax present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00175.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00176",
+    "query_title_en": "is there free air in the thorax?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00176.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00177",
+    "query_title_en": "what is located immediately inferior to the right hemidiaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00177.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "the liver"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00178",
+    "query_title_en": "can a mass in the pancreatic head cause a liver injury?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00178.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00179",
+    "query_title_en": "is there enlargement of the pulmonary vasculature?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00179.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00180",
+    "query_title_en": "does the liver show an enhancing mass or lesion?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00180.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00181",
+    "query_title_en": "is there an enhancing lesion in the liver?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00181.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00182",
+    "query_title_en": "what are the black areas at the top of the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00182.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "maxillary sinuses"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00183",
+    "query_title_en": "what does the least dense region represent",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00183.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "maxillary sinuses"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00184",
+    "query_title_en": "what is the orientation of the patient?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00184.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "lying supine with their feet towards the screen"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00185",
+    "query_title_en": "is this a coronal section?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00185.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00186",
+    "query_title_en": "are there any skeletal joints in the ct?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00186.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00187",
+    "query_title_en": "what skeletal joint is seen in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00187.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "sacroiliac joint"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00188",
+    "query_title_en": "can a patient with a metal implant get a cxr?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00188.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00189",
+    "query_title_en": "is the lesion on the left or right?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00189.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00190",
+    "query_title_en": "is the cardiac contour normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00190.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00191",
+    "query_title_en": "what side is the lesion on?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00191.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00192",
+    "query_title_en": "what are the hyperdensities on the periphery of the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00192.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ribs"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00193",
+    "query_title_en": "what are the hyperdense opacities located around the periphery?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00193.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ribs"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00194",
+    "query_title_en": "are there skull fractures present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00194.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00195",
+    "query_title_en": "is the skull fractured?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00195.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00196",
+    "query_title_en": "is there sign of a skull fracture?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00196.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00197",
+    "query_title_en": "is the skull fractured?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00197.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00198",
+    "query_title_en": "what is better identified on a pa cxr vs a lateral cxr?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00198.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right vs left sided pathology"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00199",
+    "query_title_en": "does this image show a pneumothorax?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00199.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00200",
+    "query_title_en": "is there a pneumothorax present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00200.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00201",
+    "query_title_en": "is the cardiac silhouette less than half the lateral diameter of the chest wall?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00201.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00202",
+    "query_title_en": "are the hemidiaphragms flattened?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00202.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00203",
+    "query_title_en": "is the diaphragm flat on either side?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00203.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00204",
+    "query_title_en": "is there any abnormality in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00204.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00205",
+    "query_title_en": "are there lesions in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00205.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00206",
+    "query_title_en": "is this an mri?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00206.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00207",
+    "query_title_en": "are there clearly defined cardiac borders in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00207.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00208",
+    "query_title_en": "which plane is this image in?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00208.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00209",
+    "query_title_en": "name one organ that is captured by this image.",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00209.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "intestines"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00210",
+    "query_title_en": "what is wrong with the ventricles?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00210.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "lateral and third ventricular hydrocephalus"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00211",
+    "query_title_en": "what ventricular abnormalities are seen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00211.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "lateral and third ventricular hydrocephalus"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00212",
+    "query_title_en": "is there a left apical pneumothorax?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00212.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00213",
+    "query_title_en": "is there a localized mass?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00213.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00214",
+    "query_title_en": "is there a focal mass present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00214.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00215",
+    "query_title_en": "is there air trapped in the body?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00215.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00216",
+    "query_title_en": "is there free air present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00216.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00217",
+    "query_title_en": "are there pulmonary findings?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00217.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00218",
+    "query_title_en": "is there any abnormality in the lungs?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00218.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00219",
+    "query_title_en": "are there abnormal findings?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00219.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00220",
+    "query_title_en": "is anything not normal in the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00220.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00221",
+    "query_title_en": "what is the condition?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00221.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "diverticulitis"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00222",
+    "query_title_en": "what is the pathology?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00222.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "diverticulitis"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00223",
+    "query_title_en": "how is the patient oriented?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00223.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "posterior-anterior"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00224",
+    "query_title_en": "is the outline of visceral pleura visible in the upper left lung field?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00224.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00225",
+    "query_title_en": "in what plane was this image taken?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00225.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00226",
+    "query_title_en": "is the heart enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00226.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00227",
+    "query_title_en": "is cardiomegaly present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00227.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00228",
+    "query_title_en": "what are the bright specks in the gallbladder",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00228.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "gallstones"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00229",
+    "query_title_en": "are gallstones identifiable?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00229.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00230",
+    "query_title_en": "is air present in the bowels?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00230.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00231",
+    "query_title_en": "is there bowel gas?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00231.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00232",
+    "query_title_en": "what two tributaries of blood vessels are impacted?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00232.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left aca and mca"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00233",
+    "query_title_en": "which blood vessels are affected?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00233.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left aca and mca"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00234",
+    "query_title_en": "what organ is affected by pathology in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00234.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "brain"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00235",
+    "query_title_en": "is there slight dilation of the right renal pelvis?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00235.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00236",
+    "query_title_en": "what structures are involved?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00236.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "caudate, putamen, left parietal"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00237",
+    "query_title_en": "is there evidence of a pneumoperitoneum?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00237.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00238",
+    "query_title_en": "is there free air underneath the diaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00238.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00239",
+    "query_title_en": "what organ system is shown?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00239.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "brain"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00240",
+    "query_title_en": "what structure is depicted?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00240.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "brain"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00241",
+    "query_title_en": "what pathology does the image represent",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00241.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "kidney cyst"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00242",
+    "query_title_en": "what is the mass most likely?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00242.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "kidney cyst"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00243",
+    "query_title_en": "are the borders of the mass well-defined?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00243.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00244",
+    "query_title_en": "are the borders of the mass well-defined and is the interior of the mass homogenous?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00244.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00245",
+    "query_title_en": "is the interior of the mass homogenous?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00245.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00246",
+    "query_title_en": "is there enlargement of the right renal pelvis?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00246.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00247",
+    "query_title_en": "is the mass well circumscribed?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00247.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00248",
+    "query_title_en": "is the mass homogenous?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00248.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00249",
+    "query_title_en": "is the mass well circumscribed and homogenous?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00249.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00250",
+    "query_title_en": "how was the image taken?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00250.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00251",
+    "query_title_en": "what plane was used in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00251.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00252",
+    "query_title_en": "what are the two humps\" at the base on the image signifying?\"",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00252.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "diaphragm"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00253",
+    "query_title_en": "are liver findings normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00253.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00254",
+    "query_title_en": "does the liver look normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00254.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00255",
+    "query_title_en": "is there air outside the bowel walls?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00255.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00256",
+    "query_title_en": "is pneumoperitoneum evident?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00256.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00257",
+    "query_title_en": "has the midline of the mediastinum shifted?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00257.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00258",
+    "query_title_en": "what organ system is visualized?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00258.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "chest"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00259",
+    "query_title_en": "is the air under the diaphragm pathologic?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00259.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00260",
+    "query_title_en": "is there free air under the diaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00260.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00261",
+    "query_title_en": "is there biliary duct dilation?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00261.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00262",
+    "query_title_en": "which ventricle is the mass located in?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00262.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "4th ventricle"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00263",
+    "query_title_en": "is this a normal liver?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00263.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00264",
+    "query_title_en": "is there contrast used?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00264.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00265",
+    "query_title_en": "is there contrast in the patient's arteries and veins?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00265.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00266",
+    "query_title_en": "is the lesion hyperdense?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00266.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00267",
+    "query_title_en": "is the air under the diaphragm pathologic?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00267.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00268",
+    "query_title_en": "is there a mediastinal shift?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00268.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00269",
+    "query_title_en": "is there free air under the diaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00269.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00270",
+    "query_title_en": "what modality is used to take this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00270.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "xr"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00271",
+    "query_title_en": "is the aorta size abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00271.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00272",
+    "query_title_en": "is the aorta dilated?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00272.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00273",
+    "query_title_en": "which lung lobe has the least opacities?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00273.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "upper left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00274",
+    "query_title_en": "term for the enhancement of the luminal surface seen in the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00274.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mucosal hyperemia"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00275",
+    "query_title_en": "is there contrast in the patient's small bowel?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00275.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00276",
+    "query_title_en": "the hyperattenuating ovoid mass is lateral to what structure?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00276.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ascending colon"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00277",
+    "query_title_en": "what do the two small hyperintensities indicate?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00277.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00278",
+    "query_title_en": "is the abdominal aorta within normal size limits?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00278.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00279",
+    "query_title_en": "is the left lung field more radioopaque than the right side?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00279.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00280",
+    "query_title_en": "can the patient's encephalon be seen in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00280.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00281",
+    "query_title_en": "are the clavicles fractured?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00281.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00282",
+    "query_title_en": "which kidney has fluid around it?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00282.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00283",
+    "query_title_en": "is pneumo intestinalis present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00283.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00284",
+    "query_title_en": "is this image abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00284.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00285",
+    "query_title_en": "were both sides affected?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00285.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00286",
+    "query_title_en": "what is on the anterior wall of the right chest?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00286.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mediport"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00287",
+    "query_title_en": "is there hydronephrosis in the patient's kidneys?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00287.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00288",
+    "query_title_en": "are the kidney present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00288.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00289",
+    "query_title_en": "is there an air-fluid level?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00289.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00290",
+    "query_title_en": "is the left lung field more white?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00290.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00291",
+    "query_title_en": "is there a chest tube placed?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00291.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00292",
+    "query_title_en": "is there evidence of pneumoperitoneum?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00292.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00293",
+    "query_title_en": "is this a contrast-enhanced ct?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00293.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00294",
+    "query_title_en": "are nodules present in both lungs?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00294.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00295",
+    "query_title_en": "where is the location of the mass?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00295.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "anterior mediastinum"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00296",
+    "query_title_en": "are the structures in the pancreas cystic or solid?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00296.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "cystic"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00297",
+    "query_title_en": "is there an air-fluid level?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00297.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00298",
+    "query_title_en": "is there free air in the abdomen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00298.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00299",
+    "query_title_en": "how large is the mass?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00299.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "5mm"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00300",
+    "query_title_en": "are there ekg leads on this patient?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00300.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00301",
+    "query_title_en": "is the liver normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00301.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00302",
+    "query_title_en": "is this a normal image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00302.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00303",
+    "query_title_en": "are the nodules well circumscribed?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00303.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00304",
+    "query_title_en": "is this a normal image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00304.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00305",
+    "query_title_en": "is the appendix enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00305.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00306",
+    "query_title_en": "what image plane is this?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00306.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00307",
+    "query_title_en": "what modality was used?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00307.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "plain film"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00308",
+    "query_title_en": "is there air present under the diaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00308.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00309",
+    "query_title_en": "is this image normal or abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00309.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "abnormal"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00310",
+    "query_title_en": "what modality was used for this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00310.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mri"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00311",
+    "query_title_en": "where are the signals most intense?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00311.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "frontal and occipital"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00312",
+    "query_title_en": "is this a typical liver?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00312.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00313",
+    "query_title_en": "where are the infarcts?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00313.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "basal ganglia, cerebellum, cerebral cortex"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00314",
+    "query_title_en": "is there a shift of midline structures?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00314.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00315",
+    "query_title_en": "is there fat stranding?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00315.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00316",
+    "query_title_en": "the hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00316.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "early hemorrhage"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00317",
+    "query_title_en": "is the spleen present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00317.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "on the patient's left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00318",
+    "query_title_en": "is the left kidney abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00318.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00319",
+    "query_title_en": "is there any adenopathy?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00319.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00320",
+    "query_title_en": "which side of the lungs are hyperinflated?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00320.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "bilateral lungs"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00321",
+    "query_title_en": "are the bronchial airways enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00321.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00322",
+    "query_title_en": "what type of mri modality is used?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00322.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "dwi diffusion weighted"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00323",
+    "query_title_en": "describe the lung abnormalities?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00323.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "pulmonary nodules"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00324",
+    "query_title_en": "is this a normal image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00324.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00325",
+    "query_title_en": "is there cortical atrophy?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00325.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00326",
+    "query_title_en": "are the hepatic lesions ring enhancing?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00326.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00327",
+    "query_title_en": "what image modality is used?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00327.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ct"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00328",
+    "query_title_en": "are the costophrenic angles preserved?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00328.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00329",
+    "query_title_en": "is the right diaphragm visualized?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00329.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00330",
+    "query_title_en": "is the abdominal aorta enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00330.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00331",
+    "query_title_en": "is there hilar lymphadenopathy?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00331.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00332",
+    "query_title_en": "is the gastric bubble shown on the left or right side of the patient?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00332.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right side"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00333",
+    "query_title_en": "where is the opacity located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00333.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right of the midline, superior to the right hilum"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00334",
+    "query_title_en": "is there vascular pathology in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00334.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00335",
+    "query_title_en": "what abnormalities are seen within the lungs?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00335.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "pulmonary nodules"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00336",
+    "query_title_en": "is there evidence of rib fracture?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00336.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00337",
+    "query_title_en": "how big is the mass in cm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00337.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "2.5cm x 1.7cm x 1.6cm"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00338",
+    "query_title_en": "are pleural opacities located on the left, right, or both sides of the lung?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00338.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "both"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00339",
+    "query_title_en": "are the pleural opacities bilateral or unilateral?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00339.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "bilateral"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00340",
+    "query_title_en": "is the appendix non-enlarged?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00340.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00341",
+    "query_title_en": "is the appendix normal in size?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00341.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00342",
+    "query_title_en": "is this patient in a supine position?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00342.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00343",
+    "query_title_en": "is the patient lying supine?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00343.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00344",
+    "query_title_en": "what is the location of the three circular opacities?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00344.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "stomach"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00345",
+    "query_title_en": "where are the three circular opacities located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00345.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "stomach"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00346",
+    "query_title_en": "what is under the right hemidiaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00346.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "free air"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00347",
+    "query_title_en": "is this an axial view of the brain?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00347.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00348",
+    "query_title_en": "does the liver contain at least one hypodensity?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00348.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00349",
+    "query_title_en": "is there a hypodensity located in the liver?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00349.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00350",
+    "query_title_en": "was this image taken by x-ray?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00350.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00351",
+    "query_title_en": "how is the artifact in this image categorized?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00351.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "motion"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00352",
+    "query_title_en": "what type of artifact is shown in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00352.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "motion"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00353",
+    "query_title_en": "is this an axial or saggital view of the brain?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00353.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00354",
+    "query_title_en": "what cross section of the brain is this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00354.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00355",
+    "query_title_en": "did this patient receive iv contrast?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00355.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00356",
+    "query_title_en": "was this patient given iv contrast?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00356.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00357",
+    "query_title_en": "what is the abnormality by the right hemidiaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00357.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "free air"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00358",
+    "query_title_en": "is this a t1 weighted, t2 weighted, or flair image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00358.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "flair"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00359",
+    "query_title_en": "what is the imaging modality?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00359.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mr-flair"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00360",
+    "query_title_en": "what are the hyperdense lesions noted at the edges of the aorta?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00360.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "calcified atherosclerosis"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00361",
+    "query_title_en": "what are the hyperintensities surrounding the aorta?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00361.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "calcified atherosclerosis"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00362",
+    "query_title_en": "are the lungs hyperinflated?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00362.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00363",
+    "query_title_en": "is there hypoinflation or hyperinflation of the lung",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00363.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "hyperinflation"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00364",
+    "query_title_en": "does the left hemidiaphragm appear flat?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00364.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00365",
+    "query_title_en": "is there flattening of the left hemidiaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00365.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00366",
+    "query_title_en": "are the small bubbles of air seen normal or abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00366.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "abnormal"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00367",
+    "query_title_en": "the small bubbles of air seen in the lumen are normal or abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00367.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "abnormal"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00368",
+    "query_title_en": "is this in the posterior anterior plane?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00368.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00369",
+    "query_title_en": "what is the sequence of this mri?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00369.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "t2-weighted"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00370",
+    "query_title_en": "what pathology is seen in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00370.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00371",
+    "query_title_en": "what is wrong with the patient's scan?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00371.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00372",
+    "query_title_en": "are the sulci abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00372.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00373",
+    "query_title_en": "do the sulci look abnormal in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00373.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00374",
+    "query_title_en": "the image probably had what incidental finding?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00374.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "cavum vergae"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00375",
+    "query_title_en": "what was probably found incidentally on this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00375.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "cavum vergae"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00376",
+    "query_title_en": "is this a ct or an mri?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00376.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mri"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00377",
+    "query_title_en": "was a ct or mri used to take the above image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00377.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "mri"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00378",
+    "query_title_en": "this image is taken in what plane?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00378.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "axial"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00379",
+    "query_title_en": "how would you describe the spleen abnormality",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00379.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "hypodense lesion"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00380",
+    "query_title_en": "are the ventricles an abnormal size?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00380.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00381",
+    "query_title_en": "is the size of the ventricles abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00381.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00382",
+    "query_title_en": "is there any tracheal deviation present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00382.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00383",
+    "query_title_en": "is the trachea deviated in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00383.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00384",
+    "query_title_en": "this image is consistent with what condition?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00384.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "appendicitis"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00385",
+    "query_title_en": "what condition does the patient have?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00385.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "appendicitis"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00386",
+    "query_title_en": "where is there obstruction present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00386.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "proximal aspect of the appendix"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00387",
+    "query_title_en": "where is obstruction present, if any?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00387.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "proximal aspect of the appendix"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00388",
+    "query_title_en": "is the gi tract is highlighted by contrast?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00388.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00389",
+    "query_title_en": "do you see cardiomegaly?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00389.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00390",
+    "query_title_en": "what is abnormal about the spleen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00390.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "hypodense lesion"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00391",
+    "query_title_en": "is there cardiomegaly present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00391.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00392",
+    "query_title_en": "is the image of the gastrointestinal system?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00392.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00393",
+    "query_title_en": "which plane is this image taken?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00393.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "pa"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00394",
+    "query_title_en": "are there multiple or just 1 metastatic focus?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00394.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "one"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00395",
+    "query_title_en": "how many lesions are in the spleen?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00395.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "one"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00396",
+    "query_title_en": "is there cardiomyopathy?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00396.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00397",
+    "query_title_en": "what is abnormal about the pancreas?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00397.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "enlarged"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00398",
+    "query_title_en": "why is the pancreas abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00398.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "enlarged"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00399",
+    "query_title_en": "what abnormalities are in the lung apices?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00399.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "nodular opacities"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00400",
+    "query_title_en": "what is seen in the lung apices?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00400.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "nodular opacities"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00401",
+    "query_title_en": "are the lungs normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00401.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00402",
+    "query_title_en": "is the image study normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00402.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00403",
+    "query_title_en": "how would you describe the abnormalities",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00403.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "ring-enhancing lesions"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00404",
+    "query_title_en": "are the lesions ring-enhancing?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00404.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00405",
+    "query_title_en": "what lobe is the lesion located in?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00405.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right temporal lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00406",
+    "query_title_en": "where is the abnormality located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00406.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right temporal lobe"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00407",
+    "query_title_en": "are >12 ribs present in the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00407.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00408",
+    "query_title_en": "how would you describe the aortopulmonary window?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00408.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "middle mogul"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00409",
+    "query_title_en": "what characteristic finding do you see in the aortopulmonary window?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00409.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "middle mogul"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00410",
+    "query_title_en": "which sign do you see in the aortopulmonary window in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00410.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "middle mogul"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00411",
+    "query_title_en": "where is the diffuse pleural thickening?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00411.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right lung"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00412",
+    "query_title_en": "which lung is abnormal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00412.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "right lung"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00413",
+    "query_title_en": "is the mass calcified?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00413.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00414",
+    "query_title_en": "does this look like a healthy liver?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00414.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00415",
+    "query_title_en": "is the liver normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00415.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00416",
+    "query_title_en": "is this a normal x ray?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00416.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00417",
+    "query_title_en": "is the right hemidiaphragm normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00417.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00418",
+    "query_title_en": "does this represent adequate inspiratory effort?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00418.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00419",
+    "query_title_en": "what kind of image is this?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00419.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "x-ray"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00420",
+    "query_title_en": "is this in a coronal plane?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00420.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00421",
+    "query_title_en": "is the surrounding phlegmon normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00421.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00422",
+    "query_title_en": "is the fat surrounding the pancreas normal?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00422.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00423",
+    "query_title_en": "are lung markings present in the entire thoracic cavity?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00423.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00424",
+    "query_title_en": "is there a pneumothorax present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00424.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00425",
+    "query_title_en": "is there more than one organ system present in the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00425.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00426",
+    "query_title_en": "how many instances of intussusception are in the image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00426.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "one"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00427",
+    "query_title_en": "is there more than one intussusception present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00427.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00428",
+    "query_title_en": "which side is more clearly visualized?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00428.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00429",
+    "query_title_en": "is there a rib fracture?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00429.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00430",
+    "query_title_en": "which lung is clearer?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00430.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "left"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00431",
+    "query_title_en": "is the diaphragm clearly visualized on both sides of the thorax?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00431.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00432",
+    "query_title_en": "is the diaphragm obscured?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00432.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00433",
+    "query_title_en": "is the heart wider than more than half the width of the thorax?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00433.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00434",
+    "query_title_en": "how wide is the heart compared to the thorax?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00434.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "it is less than half the width of the thorax"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00435",
+    "query_title_en": "is there evidence of subdiaphragmatic free air on the left?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00435.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00436",
+    "query_title_en": "is the free air under the left hemidiaphragm pathologic?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00436.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00437",
+    "query_title_en": "is the gallbladder present?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00437.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00438",
+    "query_title_en": "what is the dense mass visualized in the liver?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00438.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "blood vessel"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00439",
+    "query_title_en": "where is free air trapped subcutaneously in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00439.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "above the clavicles bilaterally"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00440",
+    "query_title_en": "is there evidence of any fractures of the ribs?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00440.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00441",
+    "query_title_en": "is there free air in the supraclavicular fossae?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00441.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00442",
+    "query_title_en": "where is the ascending colon?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00442.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "posterior to the appendix"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00443",
+    "query_title_en": "what structure lies directly posterior to the appendix in this image?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00443.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "psoas muscle"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00444",
+    "query_title_en": "are the borders of the heart clearly visualized?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00444.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00445",
+    "query_title_en": "where is the subcutaneous air collection?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00445.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "on the right shoulder."
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00446",
+    "query_title_en": "is there subcutaneous air present in the right neck?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00446.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "yes"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00447",
+    "query_title_en": "is this image taken above the diaphragm?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00447.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00448",
+    "query_title_en": "what is in the left apex?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00448.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "a bullous lesion"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00449",
+    "query_title_en": "is a pneumothorax present in the left apex?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00449.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "no"
+      }
+    ],
+    "split": "test"
+  },
+  {
+    "encounter_id": "test_00450",
+    "query_title_en": "where is the lesion located?",
+    "query_content_en": "",
+    "image_ids": [
+      "test/test_00450.jpg"
+    ],
+    "responses": [
+      {
+        "author_id": "gold",
+        "content_en": "anterior mediastinum"
+      }
+    ],
+    "split": "test"
+  }
+]

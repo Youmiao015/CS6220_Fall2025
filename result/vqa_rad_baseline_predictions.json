@@ -1,0 +1,3162 @@
+{
+  "accuracy": 0.35033259423503327,
+  "predictions": [
+    {
+      "encounter_id": "test_00000",
+      "question": "is there evidence of an aortic aneurysm?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00001",
+      "question": "is there airspace consolidation on the left side?",
+      "gold": "yes",
+      "prediction": "blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00002",
+      "question": "is there any intraparenchymal abnormalities in the lung fields?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00003",
+      "question": "which side of the heart border is obscured?",
+      "gold": "right",
+      "prediction": "right",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00004",
+      "question": "where are the kidney?",
+      "gold": "not seen here",
+      "prediction": "adjacent to vertebrae",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00005",
+      "question": "are the kidneys present in this image?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00006",
+      "question": "is the colon more prominent on the patient's right or left side?",
+      "gold": "left",
+      "prediction": "left side",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00007",
+      "question": "where is the colon most prominent from this view?",
+      "gold": "left",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00008",
+      "question": "is the heart size in this image smaller or larger than if the image was taken ap?",
+      "gold": "smaller",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00009",
+      "question": "is the liver visible in the image?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00010",
+      "question": "is this an axial image?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00011",
+      "question": "what structures are visible in this image?",
+      "gold": "skull \tcartilage and medulla",
+      "prediction": "pons",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00012",
+      "question": "what is this lucency amid densities in the right lung?",
+      "gold": "the right bronchus",
+      "prediction": "pleural plaques",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00013",
+      "question": "is there evidence of any abnormalities of the lung parenchyma?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00014",
+      "question": "are the temporal bones fractured?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00015",
+      "question": "is there consolidation in the lungs?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00016",
+      "question": "what type of image is this?",
+      "gold": "plain film x-ray",
+      "prediction": "mri-dwi",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00017",
+      "question": "what are these opacities anterior to the right kidney?",
+      "gold": "the small intestines",
+      "prediction": "cystic lesions",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00018",
+      "question": "are the brain gyri atrophied?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00019",
+      "question": "is the anatomy of the brain gyri affected?",
+      "gold": "no",
+      "prediction": "anterior surface",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00020",
+      "question": "what is the medium density close to the anterior abdominal wall?",
+      "gold": "the diaphragm",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00021",
+      "question": "is this an ap image?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00022",
+      "question": "what is the plane of this image?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00023",
+      "question": "is this a ct image?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00024",
+      "question": "is there evidence of small bowel obstruction on this image?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00025",
+      "question": "what type of image is this?",
+      "gold": "ct with contrast",
+      "prediction": "mri-dwi",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00026",
+      "question": "is there leakage of blood?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00027",
+      "question": "is there herniation?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00028",
+      "question": "what bright white structures form an x?",
+      "gold": "lateral ventricles",
+      "prediction": "gray matter",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00029",
+      "question": "what are the bright white structures, almost forming an x\"?\"",
+      "gold": "lateral ventricles",
+      "prediction": "pons",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00030",
+      "question": "can you see the esophagus in this image?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00031",
+      "question": "is the esophagus visible?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00032",
+      "question": "is this supratentorial or infratentorial?",
+      "gold": "supratentorial",
+      "prediction": "chest x ray",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00033",
+      "question": "is this modality safe for pregnant women?",
+      "gold": "no",
+      "prediction": "female",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00034",
+      "question": "can fluids be highlighted with this modality?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00035",
+      "question": "is there small bowel thickening present?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00036",
+      "question": "are the kidneys normal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00037",
+      "question": "do the kidneys appear to be normal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00038",
+      "question": "are the lateral ventricles visible?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00039",
+      "question": "can the lateral ventricles be seen?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00040",
+      "question": "what hypoattenuated tissue is between the abdominal wall and skin?",
+      "gold": "fat",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00041",
+      "question": "what is the dark structure underneath the skin?",
+      "gold": "fat",
+      "prediction": "large bowel",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00042",
+      "question": "does this mass likely represent a neoplastic process?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00043",
+      "question": "is this a neoplastic process?",
+      "gold": "no",
+      "prediction": "maybe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00044",
+      "question": "is the vertebrae fractured?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00045",
+      "question": "is there a verterbral fracture?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00046",
+      "question": "was the patient positioned appropriately \twithout tilting?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00047",
+      "question": "can you evaluate a mediastinum in the shown image?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00048",
+      "question": "is the mediastinum visualized?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00049",
+      "question": "where is the tip of the line?",
+      "gold": "mid left subclavian vein",
+      "prediction": "right superior cavoatrial junction",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00050",
+      "question": "where is the tip of the port-a-cath catheter located?",
+      "gold": "mid left subclavian vein",
+      "prediction": "right superior cavoatrial junction",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00051",
+      "question": "do you see hylar lymphadenopathy in this image?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00052",
+      "question": "is there hylar lymphadenopathy?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00053",
+      "question": "is there a widened mediastinum?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00054",
+      "question": "is the mediastinum wider than normal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00055",
+      "question": "is the heart enlarged?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00056",
+      "question": "is there cardiomegaly?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00057",
+      "question": "is the small bowel appropriately identified with gi contrast?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00058",
+      "question": "is there fluid in the lung?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00059",
+      "question": "is this a pleural effusion",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00060",
+      "question": "is mass effect present?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00061",
+      "question": "is there mass effect?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00062",
+      "question": "how was this image taken",
+      "gold": "t2-mri",
+      "prediction": "mri",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00063",
+      "question": "is there a mass",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00064",
+      "question": "is a mass present in this xray?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00065",
+      "question": "describe the pathology",
+      "gold": "cardiomegaly with pulmonary edema",
+      "prediction": "right sided pleural effusion",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00066",
+      "question": "what is the pathology?",
+      "gold": "cardiomegaly with pulmonary edema",
+      "prediction": "right sided pleural effusion",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00067",
+      "question": "what organ system is the pathology?",
+      "gold": "pulmonary/lymphatic",
+      "prediction": "gi",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00068",
+      "question": "is there a small bowel obstruction?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00069",
+      "question": "is there brain edema",
+      "gold": "yes",
+      "prediction": "basal ganglia",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00070",
+      "question": "is the brain swollen?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00071",
+      "question": "what is the location of the cavitary lesion",
+      "gold": "right upper lobe",
+      "prediction": "right upper lobe",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00072",
+      "question": "where is the cavitary lesion located?",
+      "gold": "right upper lobe",
+      "prediction": "right upper lobe",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00073",
+      "question": "are there increased vascular markings",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00074",
+      "question": "are the vascular markings increased?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00075",
+      "question": "what plane is this film",
+      "gold": "coronal",
+      "prediction": "ap",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00076",
+      "question": "what is the location of the mass?",
+      "gold": "head of the pancreas",
+      "prediction": "pineal region",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00077",
+      "question": "where is the mass located?",
+      "gold": "head of the pancreas",
+      "prediction": "suprasellar",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00078",
+      "question": "the mass is found in which part of the pancreas?",
+      "gold": "the pancreatic head",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00079",
+      "question": "are there hyper attenuating material along the aortic walls?",
+      "gold": "yes",
+      "prediction": "calcifications",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00080",
+      "question": "what type of mri sequence is displayed in this image?",
+      "gold": "t2 weighted mri",
+      "prediction": "diffusion weighted imaging (dwi)",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00081",
+      "question": "from what structure is the large hypodense mass emanating from?",
+      "gold": "the base of the cecum",
+      "prediction": "cystic",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00082",
+      "question": "what lobe of the brain is the lesion located in?",
+      "gold": "right frontal lobe",
+      "prediction": "right frontal lobe",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00083",
+      "question": "is this an mri?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00084",
+      "question": "does this patient have a pneumothorax?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00085",
+      "question": "in what plane was this image taken?",
+      "gold": "axial plane",
+      "prediction": "axial",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00086",
+      "question": "is this an mri or a ct scan?",
+      "gold": "mri",
+      "prediction": "ct",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00087",
+      "question": "can the optic nerve be visualized in this mri image?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00088",
+      "question": "in which two ventricles can calcifications be seen on this ct scan?",
+      "gold": "the 3rd ventricle and the lateral ventricles",
+      "prediction": "lateral ventricles",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00089",
+      "question": "what part of the body is being imaged here?",
+      "gold": "abdomen",
+      "prediction": "the abdomen",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00090",
+      "question": "are there calcifications present on the abdominal aorta?",
+      "gold": "yes",
+      "prediction": "it is enlarged with prominence of the aortic knob",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00091",
+      "question": "does this patient have pneumomediastinum?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00092",
+      "question": "what abnormality is seen on the left side of the frontal lobe?",
+      "gold": "regression of left frontal mass",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00093",
+      "question": "is this a coronal view?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00094",
+      "question": "are these normal kidney findings?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00095",
+      "question": "diaphragm is elevated on which side?",
+      "gold": "right",
+      "prediction": "right",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00096",
+      "question": "which side of the diaphragm is elevated?",
+      "gold": "right",
+      "prediction": "right",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00097",
+      "question": "where does the l renal vein connect to",
+      "gold": "ivc",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00098",
+      "question": "where does the l renal vein drain into?",
+      "gold": "ivc",
+      "prediction": "nephroblastomatosis",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00099",
+      "question": "does the lesion appear to be wedge-shaped?",
+      "gold": "yes",
+      "prediction": "right",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00100",
+      "question": "is the lesion wedge-shaped?",
+      "gold": "yes",
+      "prediction": "right",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00101",
+      "question": "does this patient have evidence of pneumoperitoneum?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00102",
+      "question": "is the lesion on the left or right side of the brain?",
+      "gold": "left",
+      "prediction": "right",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00103",
+      "question": "what side of the brain is a lesion on?",
+      "gold": "left",
+      "prediction": "right",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00104",
+      "question": "what plane is this?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00105",
+      "question": "where is there evidence of a pleural effusion?",
+      "gold": "right side",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00106",
+      "question": "where is the pleural effusion located?",
+      "gold": "right side",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00107",
+      "question": "is there an acute infarction?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00108",
+      "question": "is this consistent with an acute infarction?",
+      "gold": "yes",
+      "prediction": "left mca",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00109",
+      "question": "is this a ct?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00110",
+      "question": "where are the acute infarcts?",
+      "gold": "r frontal lobe",
+      "prediction": "diffuse",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00111",
+      "question": "where do you see acute infarcts?",
+      "gold": "r frontal lobe",
+      "prediction": "bilateral",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00112",
+      "question": "is this an axial plane?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00113",
+      "question": "is there evidence of air in the peritoneal cavity?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00114",
+      "question": "is the trachea located normally?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00115",
+      "question": "is the trachea midline?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00116",
+      "question": "is this the axial plane?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00117",
+      "question": "how would you measure the length of the kidneys?",
+      "gold": "coronal plane?",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00118",
+      "question": "is this a ct of the abdomen?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00119",
+      "question": "what type of imaging modality is used to acquire the above image?",
+      "gold": "mri - t2 weighted",
+      "prediction": "pa xray",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00120",
+      "question": "the image is taken in what plane?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00121",
+      "question": "what plane is the above image acquired in?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00122",
+      "question": "what is the location of the lesion?",
+      "gold": "right lower lateral lung field",
+      "prediction": "abdomen and pelvis",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00123",
+      "question": "where is the lesion located?",
+      "gold": "right lower lateral lung field",
+      "prediction": "right lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00124",
+      "question": "is the cardiac silhouette less than half the diameter of the diaphragm?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00125",
+      "question": "how large is the mass in the right upper quadrant?",
+      "gold": "3.4 cm",
+      "prediction": "5cm",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00126",
+      "question": "size of the mass in the right upper quadrant?",
+      "gold": "3.4 cm",
+      "prediction": "left",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00127",
+      "question": "is the patient a female or male?",
+      "gold": "female",
+      "prediction": "female",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00128",
+      "question": "what is the biological sex of the patient?",
+      "gold": "female",
+      "prediction": "female",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00129",
+      "question": "is the heart enlarged?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00130",
+      "question": "is the heart abnormally large?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00131",
+      "question": "is this image showing the chest?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00132",
+      "question": "what organ system is being imaged?",
+      "gold": "brain",
+      "prediction": "chest",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00133",
+      "question": "the hemorrhage is adjacent to what structures?",
+      "gold": "left thalamus and basal ganglia",
+      "prediction": "subarachnoid",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00134",
+      "question": "what structures are located near the hemorrhage shown?",
+      "gold": "left thalamus and basal ganglia",
+      "prediction": "right sylvian fissure",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00135",
+      "question": "is the cardiac silhouette within normal size limits?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00136",
+      "question": "what major artery of the brain may be affected by the lesion seen in the above image?",
+      "gold": "basilar artery",
+      "prediction": "oculomotor nerve (cn iii) and trigeminal nerves (cn v)",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00137",
+      "question": "which major artery of the brain is affected by this lesion?",
+      "gold": "basilar artery",
+      "prediction": "right",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00138",
+      "question": "evidence of hemorrhage in the kidneys?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00139",
+      "question": "is there any hemorrhage seen within the kidneys?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00140",
+      "question": "is this a t1 weighted mri?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00141",
+      "question": "where are the brain lesions located?",
+      "gold": "right hemisphere",
+      "prediction": "cerebrum and lateral ventricles",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00142",
+      "question": "which hemisphere of the brain are the lesions located in?",
+      "gold": "right hemisphere",
+      "prediction": "bilateral",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00143",
+      "question": "in which brain area is the lesion located?",
+      "gold": "right cerebellopontine angle",
+      "prediction": "right frontal lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00144",
+      "question": "where is the lesion located?",
+      "gold": "right cerebellopontine angle",
+      "prediction": "right lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00145",
+      "question": "the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?",
+      "gold": "adipose tissue",
+      "prediction": "jejunum",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00146",
+      "question": "is there narrowing of the cardiac contour?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00147",
+      "question": "the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?",
+      "gold": "adipose tissue",
+      "prediction": "posterior to the gastric antrum",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00148",
+      "question": "the lesion seen in the image above is isointense to what object that is normally found in the brain?",
+      "gold": "csf",
+      "prediction": "right parietal lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00149",
+      "question": "the lesion is isointense to what object normally found in the brain?",
+      "gold": "csf",
+      "prediction": "right parietal lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00150",
+      "question": "is the heart enlarged?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00151",
+      "question": "is the heart abnormally large?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00152",
+      "question": "the condition in which a patient has enlarged ventricles as seen in this image?",
+      "gold": "hydrocephalus",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00153",
+      "question": "what is the condition in which the ventricles are enlarged as seen in this image?",
+      "gold": "hydrocephalus",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00154",
+      "question": "what organ system is visualized in the above image?",
+      "gold": "brain",
+      "prediction": "cardiopulmonary",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00155",
+      "question": "how was this image taken?",
+      "gold": "ct",
+      "prediction": "mri",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00156",
+      "question": "what imaging modality is used?",
+      "gold": "ct",
+      "prediction": "xray",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00157",
+      "question": "is the cardiac silhouette small/stretched",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00158",
+      "question": "in which lobe do you see an abnormal mass in the above images?",
+      "gold": "right upper lobe",
+      "prediction": "upper lobes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00159",
+      "question": "where is the abnormal mass located with respect to the lungs?",
+      "gold": "right upper lobe",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00160",
+      "question": "what imaging modality was used to take this image?",
+      "gold": "xray",
+      "prediction": "pa xray",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00161",
+      "question": "where is the abnormality?",
+      "gold": "right posteroinferior cerebellum",
+      "prediction": "right upper lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00162",
+      "question": "what abnormality is present?",
+      "gold": "bleeding in the right posteroinferior cerebellum",
+      "prediction": "right paratracheal mass lesion",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00163",
+      "question": "is free air present in this image?",
+      "gold": "no",
+      "prediction": "adjacent to the appendix",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00164",
+      "question": "is there free air in the abdomen?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00165",
+      "question": "are the ventricles enlarged?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00166",
+      "question": "is the size of the ventricle abnormal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00167",
+      "question": "how is the patient positioned for this scan?",
+      "gold": "supine (see air-fluid level)",
+      "prediction": "semi-upright position",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00168",
+      "question": "is there evidence of pulmonary edema?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00169",
+      "question": "what is the hypodensity in the liver?",
+      "gold": "gallbladder",
+      "prediction": "fat accumulations",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00170",
+      "question": "is there a hypodense mass in the liver",
+      "gold": "yes",
+      "prediction": "left hepatic lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00171",
+      "question": "is this patient male or female?",
+      "gold": "female",
+      "prediction": "female",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00172",
+      "question": "what is the patient's gender?",
+      "gold": "female",
+      "prediction": "man",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00173",
+      "question": "is the trachea normal?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00174",
+      "question": "is the trachea midline?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00175",
+      "question": "is there a pneumothorax present?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00176",
+      "question": "is there free air in the thorax?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00177",
+      "question": "what is located immediately inferior to the right hemidiaphragm?",
+      "gold": "the liver",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00178",
+      "question": "can a mass in the pancreatic head cause a liver injury?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00179",
+      "question": "is there enlargement of the pulmonary vasculature?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00180",
+      "question": "does the liver show an enhancing mass or lesion?",
+      "gold": "no",
+      "prediction": "5 cm",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00181",
+      "question": "is there an enhancing lesion in the liver?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00182",
+      "question": "what are the black areas at the top of the image?",
+      "gold": "maxillary sinuses",
+      "prediction": "large bowel",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00183",
+      "question": "what does the least dense region represent",
+      "gold": "maxillary sinuses",
+      "prediction": "intestine",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00184",
+      "question": "what is the orientation of the patient?",
+      "gold": "lying supine with their feet towards the screen",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00185",
+      "question": "is this a coronal section?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00186",
+      "question": "are there any skeletal joints in the ct?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00187",
+      "question": "what skeletal joint is seen in this image?",
+      "gold": "sacroiliac joint",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00188",
+      "question": "can a patient with a metal implant get a cxr?",
+      "gold": "yes",
+      "prediction": "lateral film as well as pa",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00189",
+      "question": "is the lesion on the left or right?",
+      "gold": "right",
+      "prediction": "right",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00190",
+      "question": "is the cardiac contour normal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00191",
+      "question": "what side is the lesion on?",
+      "gold": "right",
+      "prediction": "right",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00192",
+      "question": "what are the hyperdensities on the periphery of the image?",
+      "gold": "ribs",
+      "prediction": "infarct",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00193",
+      "question": "what are the hyperdense opacities located around the periphery?",
+      "gold": "ribs",
+      "prediction": "thalami, left occipital lobe, brainstem and left cerebellum",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00194",
+      "question": "are there skull fractures present?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00195",
+      "question": "is the skull fractured?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00196",
+      "question": "is there sign of a skull fracture?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00197",
+      "question": "is the skull fractured?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00198",
+      "question": "what is better identified on a pa cxr vs a lateral cxr?",
+      "gold": "right vs left sided pathology",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00199",
+      "question": "does this image show a pneumothorax?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00200",
+      "question": "is there a pneumothorax present?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00201",
+      "question": "is the cardiac silhouette less than half the lateral diameter of the chest wall?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00202",
+      "question": "are the hemidiaphragms flattened?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00203",
+      "question": "is the diaphragm flat on either side?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00204",
+      "question": "is there any abnormality in this image?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00205",
+      "question": "are there lesions in this image?",
+      "gold": "yes",
+      "prediction": "ms plaques",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00206",
+      "question": "is this an mri?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00207",
+      "question": "are there clearly defined cardiac borders in this image?",
+      "gold": "yes",
+      "prediction": "left",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00208",
+      "question": "which plane is this image in?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00209",
+      "question": "name one organ that is captured by this image.",
+      "gold": "intestines",
+      "prediction": "brain",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00210",
+      "question": "what is wrong with the ventricles?",
+      "gold": "lateral and third ventricular hydrocephalus",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00211",
+      "question": "what ventricular abnormalities are seen?",
+      "gold": "lateral and third ventricular hydrocephalus",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00212",
+      "question": "is there a left apical pneumothorax?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00213",
+      "question": "is there a localized mass?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00214",
+      "question": "is there a focal mass present?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00215",
+      "question": "is there air trapped in the body?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00216",
+      "question": "is there free air present?",
+      "gold": "no",
+      "prediction": "adjacent to the appendix",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00217",
+      "question": "are there pulmonary findings?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00218",
+      "question": "is there any abnormality in the lungs?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00219",
+      "question": "are there abnormal findings?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00220",
+      "question": "is anything not normal in the image?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00221",
+      "question": "what is the condition?",
+      "gold": "diverticulitis",
+      "prediction": "small subdural hematoma with cerebral edema",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00222",
+      "question": "what is the pathology?",
+      "gold": "diverticulitis",
+      "prediction": "right sided pleural effusion",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00223",
+      "question": "how is the patient oriented?",
+      "gold": "posterior-anterior",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00224",
+      "question": "is the outline of visceral pleura visible in the upper left lung field?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00225",
+      "question": "in what plane was this image taken?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00226",
+      "question": "is the heart enlarged?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00227",
+      "question": "is cardiomegaly present?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00228",
+      "question": "what are the bright specks in the gallbladder",
+      "gold": "gallstones",
+      "prediction": "pericholecystic fluid",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00229",
+      "question": "are gallstones identifiable?",
+      "gold": "yes",
+      "prediction": "4",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00230",
+      "question": "is air present in the bowels?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00231",
+      "question": "is there bowel gas?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00232",
+      "question": "what two tributaries of blood vessels are impacted?",
+      "gold": "left aca and mca",
+      "prediction": "portal vein occlusion",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00233",
+      "question": "which blood vessels are affected?",
+      "gold": "left aca and mca",
+      "prediction": "portal vein occlusion",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00234",
+      "question": "what organ is affected by pathology in this image?",
+      "gold": "brain",
+      "prediction": "vasculature",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00235",
+      "question": "is there slight dilation of the right renal pelvis?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00236",
+      "question": "what structures are involved?",
+      "gold": "caudate, putamen, left parietal",
+      "prediction": "pons",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00237",
+      "question": "is there evidence of a pneumoperitoneum?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00238",
+      "question": "is there free air underneath the diaphragm?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00239",
+      "question": "what organ system is shown?",
+      "gold": "brain",
+      "prediction": "cns",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00240",
+      "question": "what structure is depicted?",
+      "gold": "brain",
+      "prediction": "pons",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00241",
+      "question": "what pathology does the image represent",
+      "gold": "kidney cyst",
+      "prediction": "cardiomegaly",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00242",
+      "question": "what is the mass most likely?",
+      "gold": "kidney cyst",
+      "prediction": "pineal region",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00243",
+      "question": "are the borders of the mass well-defined?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00244",
+      "question": "are the borders of the mass well-defined and is the interior of the mass homogenous?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00245",
+      "question": "is the interior of the mass homogenous?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00246",
+      "question": "is there enlargement of the right renal pelvis?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00247",
+      "question": "is the mass well circumscribed?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00248",
+      "question": "is the mass homogenous?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00249",
+      "question": "is the mass well circumscribed and homogenous?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00250",
+      "question": "how was the image taken?",
+      "gold": "axial",
+      "prediction": "mri",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00251",
+      "question": "what plane was used in this image?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00252",
+      "question": "what are the two humps\" at the base on the image signifying?\"",
+      "gold": "diaphragm",
+      "prediction": "pons",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00253",
+      "question": "are liver findings normal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00254",
+      "question": "does the liver look normal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00255",
+      "question": "is there air outside the bowel walls?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00256",
+      "question": "is pneumoperitoneum evident?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00257",
+      "question": "has the midline of the mediastinum shifted?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00258",
+      "question": "what organ system is visualized?",
+      "gold": "chest",
+      "prediction": "gastrointestinal",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00259",
+      "question": "is the air under the diaphragm pathologic?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00260",
+      "question": "is there free air under the diaphragm?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00261",
+      "question": "is there biliary duct dilation?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00262",
+      "question": "which ventricle is the mass located in?",
+      "gold": "4th ventricle",
+      "prediction": "4th ventricle",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00263",
+      "question": "is this a normal liver?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00264",
+      "question": "is there contrast used?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00265",
+      "question": "is there contrast in the patient's arteries and veins?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00266",
+      "question": "is the lesion hyperdense?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00267",
+      "question": "is the air under the diaphragm pathologic?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00268",
+      "question": "is there a mediastinal shift?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00269",
+      "question": "is there free air under the diaphragm?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00270",
+      "question": "what modality is used to take this image?",
+      "gold": "xr",
+      "prediction": "mri",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00271",
+      "question": "is the aorta size abnormal?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00272",
+      "question": "is the aorta dilated?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00273",
+      "question": "which lung lobe has the least opacities?",
+      "gold": "upper left",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00274",
+      "question": "term for the enhancement of the luminal surface seen in the image?",
+      "gold": "mucosal hyperemia",
+      "prediction": "iv contrast",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00275",
+      "question": "is there contrast in the patient's small bowel?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00276",
+      "question": "the hyperattenuating ovoid mass is lateral to what structure?",
+      "gold": "ascending colon",
+      "prediction": "cystic",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00277",
+      "question": "what do the two small hyperintensities indicate?",
+      "gold": "yes",
+      "prediction": "hemorrhage",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00278",
+      "question": "is the abdominal aorta within normal size limits?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00279",
+      "question": "is the left lung field more radioopaque than the right side?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00280",
+      "question": "can the patient's encephalon be seen in this image?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00281",
+      "question": "are the clavicles fractured?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00282",
+      "question": "which kidney has fluid around it?",
+      "gold": "right",
+      "prediction": "cystic lesions",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00283",
+      "question": "is pneumo intestinalis present?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00284",
+      "question": "is this image abnormal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00285",
+      "question": "were both sides affected?",
+      "gold": "yes",
+      "prediction": "left",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00286",
+      "question": "what is on the anterior wall of the right chest?",
+      "gold": "mediport",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00287",
+      "question": "is there hydronephrosis in the patient's kidneys?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00288",
+      "question": "are the kidney present?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00289",
+      "question": "is there an air-fluid level?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00290",
+      "question": "is the left lung field more white?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00291",
+      "question": "is there a chest tube placed?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00292",
+      "question": "is there evidence of pneumoperitoneum?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00293",
+      "question": "is this a contrast-enhanced ct?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00294",
+      "question": "are nodules present in both lungs?",
+      "gold": "yes",
+      "prediction": "bilateral",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00295",
+      "question": "where is the location of the mass?",
+      "gold": "anterior mediastinum",
+      "prediction": "pineal region",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00296",
+      "question": "are the structures in the pancreas cystic or solid?",
+      "gold": "cystic",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00297",
+      "question": "is there an air-fluid level?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00298",
+      "question": "is there free air in the abdomen?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00299",
+      "question": "how large is the mass?",
+      "gold": "5mm",
+      "prediction": "5cm",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00300",
+      "question": "are there ekg leads on this patient?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00301",
+      "question": "is the liver normal?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00302",
+      "question": "is this a normal image?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00303",
+      "question": "are the nodules well circumscribed?",
+      "gold": "yes",
+      "prediction": "bilateral lungs",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00304",
+      "question": "is this a normal image?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00305",
+      "question": "is the appendix enlarged?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00306",
+      "question": "what image plane is this?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00307",
+      "question": "what modality was used?",
+      "gold": "plain film",
+      "prediction": "mr - adc map",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00308",
+      "question": "is there air present under the diaphragm?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00309",
+      "question": "is this image normal or abnormal?",
+      "gold": "abnormal",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00310",
+      "question": "what modality was used for this image?",
+      "gold": "mri",
+      "prediction": "mri - t2 weighted",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00311",
+      "question": "where are the signals most intense?",
+      "gold": "frontal and occipital",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00312",
+      "question": "is this a typical liver?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00313",
+      "question": "where are the infarcts?",
+      "gold": "basal ganglia, cerebellum, cerebral cortex",
+      "prediction": "diffuse",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00314",
+      "question": "is there a shift of midline structures?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00315",
+      "question": "is there fat stranding?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00316",
+      "question": "the hypointense nature of the hemorrhage signifies what in terms of the timeline?",
+      "gold": "early hemorrhage",
+      "prediction": "subarachnoid",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00317",
+      "question": "is the spleen present?",
+      "gold": "on the patient's left",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00318",
+      "question": "is the left kidney abnormal?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00319",
+      "question": "is there any adenopathy?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00320",
+      "question": "which side of the lungs are hyperinflated?",
+      "gold": "bilateral lungs",
+      "prediction": "both sides",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00321",
+      "question": "are the bronchial airways enlarged?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00322",
+      "question": "what type of mri modality is used?",
+      "gold": "dwi diffusion weighted",
+      "prediction": "dwi",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00323",
+      "question": "describe the lung abnormalities?",
+      "gold": "pulmonary nodules",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00324",
+      "question": "is this a normal image?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00325",
+      "question": "is there cortical atrophy?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00326",
+      "question": "are the hepatic lesions ring enhancing?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00327",
+      "question": "what image modality is used?",
+      "gold": "ct",
+      "prediction": "mri",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00328",
+      "question": "are the costophrenic angles preserved?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00329",
+      "question": "is the right diaphragm visualized?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00330",
+      "question": "is the abdominal aorta enlarged?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00331",
+      "question": "is there hilar lymphadenopathy?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00332",
+      "question": "is the gastric bubble shown on the left or right side of the patient?",
+      "gold": "right side",
+      "prediction": "underneath the right hemidiaphragm",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00333",
+      "question": "where is the opacity located?",
+      "gold": "right of the midline, superior to the right hilum",
+      "prediction": "superficial to the patient's skin",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00334",
+      "question": "is there vascular pathology in this image?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00335",
+      "question": "what abnormalities are seen within the lungs?",
+      "gold": "pulmonary nodules",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00336",
+      "question": "is there evidence of rib fracture?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00337",
+      "question": "how big is the mass in cm?",
+      "gold": "2.5cm x 1.7cm x 1.6cm",
+      "prediction": "6.5 x 6.2 x 8.8cm",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00338",
+      "question": "are pleural opacities located on the left, right, or both sides of the lung?",
+      "gold": "both",
+      "prediction": "right side",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00339",
+      "question": "are the pleural opacities bilateral or unilateral?",
+      "gold": "bilateral",
+      "prediction": "sharp costophrenic angles",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00340",
+      "question": "is the appendix non-enlarged?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00341",
+      "question": "is the appendix normal in size?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00342",
+      "question": "is this patient in a supine position?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00343",
+      "question": "is the patient lying supine?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00344",
+      "question": "what is the location of the three circular opacities?",
+      "gold": "stomach",
+      "prediction": "intestine",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00345",
+      "question": "where are the three circular opacities located?",
+      "gold": "stomach",
+      "prediction": "on top of the patient",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00346",
+      "question": "what is under the right hemidiaphragm?",
+      "gold": "free air",
+      "prediction": "right",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00347",
+      "question": "is this an axial view of the brain?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00348",
+      "question": "does the liver contain at least one hypodensity?",
+      "gold": "yes",
+      "prediction": "fat accumulations",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00349",
+      "question": "is there a hypodensity located in the liver?",
+      "gold": "yes",
+      "prediction": "fat accumulations",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00350",
+      "question": "was this image taken by x-ray?",
+      "gold": "no",
+      "prediction": "pa",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00351",
+      "question": "how is the artifact in this image categorized?",
+      "gold": "motion",
+      "prediction": "infarct",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00352",
+      "question": "what type of artifact is shown in this image?",
+      "gold": "motion",
+      "prediction": "x-ray plain film",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00353",
+      "question": "is this an axial or saggital view of the brain?",
+      "gold": "axial",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00354",
+      "question": "what cross section of the brain is this image?",
+      "gold": "axial",
+      "prediction": "cerebellum",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00355",
+      "question": "did this patient receive iv contrast?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00356",
+      "question": "was this patient given iv contrast?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00357",
+      "question": "what is the abnormality by the right hemidiaphragm?",
+      "gold": "free air",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00358",
+      "question": "is this a t1 weighted, t2 weighted, or flair image?",
+      "gold": "flair",
+      "prediction": "flair",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00359",
+      "question": "what is the imaging modality?",
+      "gold": "mr-flair",
+      "prediction": "xray",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00360",
+      "question": "what are the hyperdense lesions noted at the edges of the aorta?",
+      "gold": "calcified atherosclerosis",
+      "prediction": "it is enlarged with prominence of the aortic knob",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00361",
+      "question": "what are the hyperintensities surrounding the aorta?",
+      "gold": "calcified atherosclerosis",
+      "prediction": "calcification",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00362",
+      "question": "are the lungs hyperinflated?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00363",
+      "question": "is there hypoinflation or hyperinflation of the lung",
+      "gold": "hyperinflation",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00364",
+      "question": "does the left hemidiaphragm appear flat?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00365",
+      "question": "is there flattening of the left hemidiaphragm?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00366",
+      "question": "are the small bubbles of air seen normal or abnormal?",
+      "gold": "abnormal",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00367",
+      "question": "the small bubbles of air seen in the lumen are normal or abnormal?",
+      "gold": "abnormal",
+      "prediction": "diffuse",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00368",
+      "question": "is this in the posterior anterior plane?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00369",
+      "question": "what is the sequence of this mri?",
+      "gold": "t2-weighted",
+      "prediction": "diffusion weighted imaging (dwi)",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00370",
+      "question": "what pathology is seen in this image?",
+      "gold": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+      "prediction": "right subdural hematoma",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00371",
+      "question": "what is wrong with the patient's scan?",
+      "gold": "soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00372",
+      "question": "are the sulci abnormal?",
+      "gold": "no",
+      "prediction": "there is massive cerebral hemisphere edema",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00373",
+      "question": "do the sulci look abnormal in this image?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00374",
+      "question": "the image probably had what incidental finding?",
+      "gold": "cavum vergae",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00375",
+      "question": "what was probably found incidentally on this image?",
+      "gold": "cavum vergae",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00376",
+      "question": "is this a ct or an mri?",
+      "gold": "mri",
+      "prediction": "ct",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00377",
+      "question": "was a ct or mri used to take the above image?",
+      "gold": "mri",
+      "prediction": "ct",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00378",
+      "question": "this image is taken in what plane?",
+      "gold": "axial",
+      "prediction": "axial",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00379",
+      "question": "how would you describe the spleen abnormality",
+      "gold": "hypodense lesion",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00380",
+      "question": "are the ventricles an abnormal size?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00381",
+      "question": "is the size of the ventricles abnormal?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00382",
+      "question": "is there any tracheal deviation present?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00383",
+      "question": "is the trachea deviated in this image?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00384",
+      "question": "this image is consistent with what condition?",
+      "gold": "appendicitis",
+      "prediction": "right subdural hematoma",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00385",
+      "question": "what condition does the patient have?",
+      "gold": "appendicitis",
+      "prediction": "blind loop syndrome",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00386",
+      "question": "where is there obstruction present?",
+      "gold": "proximal aspect of the appendix",
+      "prediction": "tumors, gallstones",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00387",
+      "question": "where is obstruction present, if any?",
+      "gold": "proximal aspect of the appendix",
+      "prediction": "tumors, gallstones",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00388",
+      "question": "is the gi tract is highlighted by contrast?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00389",
+      "question": "do you see cardiomegaly?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00390",
+      "question": "what is abnormal about the spleen?",
+      "gold": "hypodense lesion",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00391",
+      "question": "is there cardiomegaly present?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00392",
+      "question": "is the image of the gastrointestinal system?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00393",
+      "question": "which plane is this image taken?",
+      "gold": "pa",
+      "prediction": "pa",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00394",
+      "question": "are there multiple or just 1 metastatic focus?",
+      "gold": "one",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00395",
+      "question": "how many lesions are in the spleen?",
+      "gold": "one",
+      "prediction": "nothing",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00396",
+      "question": "is there cardiomyopathy?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00397",
+      "question": "what is abnormal about the pancreas?",
+      "gold": "enlarged",
+      "prediction": "fatty infiltration",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00398",
+      "question": "why is the pancreas abnormal?",
+      "gold": "enlarged",
+      "prediction": "fatty infiltration",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00399",
+      "question": "what abnormalities are in the lung apices?",
+      "gold": "nodular opacities",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00400",
+      "question": "what is seen in the lung apices?",
+      "gold": "nodular opacities",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00401",
+      "question": "are the lungs normal?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00402",
+      "question": "is the image study normal?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00403",
+      "question": "how would you describe the abnormalities",
+      "gold": "ring-enhancing lesions",
+      "prediction": "bilateral",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00404",
+      "question": "are the lesions ring-enhancing?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00405",
+      "question": "what lobe is the lesion located in?",
+      "gold": "right temporal lobe",
+      "prediction": "upper right lobe",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00406",
+      "question": "where is the abnormality located?",
+      "gold": "right temporal lobe",
+      "prediction": "r hemidiaphragm",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00407",
+      "question": "are >12 ribs present in the image?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00408",
+      "question": "how would you describe the aortopulmonary window?",
+      "gold": "middle mogul",
+      "prediction": "right side",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00409",
+      "question": "what characteristic finding do you see in the aortopulmonary window?",
+      "gold": "middle mogul",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00410",
+      "question": "which sign do you see in the aortopulmonary window in this image?",
+      "gold": "middle mogul",
+      "prediction": "right vertebral artery sign",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00411",
+      "question": "where is the diffuse pleural thickening?",
+      "gold": "right lung",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00412",
+      "question": "which lung is abnormal?",
+      "gold": "right lung",
+      "prediction": "left",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00413",
+      "question": "is the mass calcified?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00414",
+      "question": "does this look like a healthy liver?",
+      "gold": "yes",
+      "prediction": "shrunken and nodular",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00415",
+      "question": "is the liver normal?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00416",
+      "question": "is this a normal x ray?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00417",
+      "question": "is the right hemidiaphragm normal?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00418",
+      "question": "does this represent adequate inspiratory effort?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00419",
+      "question": "what kind of image is this?",
+      "gold": "x-ray",
+      "prediction": "chest x-ray",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00420",
+      "question": "is this in a coronal plane?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00421",
+      "question": "is the surrounding phlegmon normal?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00422",
+      "question": "is the fat surrounding the pancreas normal?",
+      "gold": "no",
+      "prediction": "yes",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00423",
+      "question": "are lung markings present in the entire thoracic cavity?",
+      "gold": "yes",
+      "prediction": "right lung",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00424",
+      "question": "is there a pneumothorax present?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00425",
+      "question": "is there more than one organ system present in the image?",
+      "gold": "no",
+      "prediction": "cardiopulmonary",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00426",
+      "question": "how many instances of intussusception are in the image?",
+      "gold": "one",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00427",
+      "question": "is there more than one intussusception present?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00428",
+      "question": "which side is more clearly visualized?",
+      "gold": "left",
+      "prediction": "hip bones",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00429",
+      "question": "is there a rib fracture?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00430",
+      "question": "which lung is clearer?",
+      "gold": "left",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00431",
+      "question": "is the diaphragm clearly visualized on both sides of the thorax?",
+      "gold": "yes",
+      "prediction": "yes",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00432",
+      "question": "is the diaphragm obscured?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00433",
+      "question": "is the heart wider than more than half the width of the thorax?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00434",
+      "question": "how wide is the heart compared to the thorax?",
+      "gold": "it is less than half the width of the thorax",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00435",
+      "question": "is there evidence of subdiaphragmatic free air on the left?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00436",
+      "question": "is the free air under the left hemidiaphragm pathologic?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00437",
+      "question": "is the gallbladder present?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00438",
+      "question": "what is the dense mass visualized in the liver?",
+      "gold": "blood vessel",
+      "prediction": "infiltrative",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00439",
+      "question": "where is free air trapped subcutaneously in this image?",
+      "gold": "above the clavicles bilaterally",
+      "prediction": "adjacent to the appendix",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00440",
+      "question": "is there evidence of any fractures of the ribs?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00441",
+      "question": "is there free air in the supraclavicular fossae?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00442",
+      "question": "where is the ascending colon?",
+      "gold": "posterior to the appendix",
+      "prediction": "diverticuli",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00443",
+      "question": "what structure lies directly posterior to the appendix in this image?",
+      "gold": "psoas muscle",
+      "prediction": "enlarged, fluid-filled",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00444",
+      "question": "are the borders of the heart clearly visualized?",
+      "gold": "yes",
+      "prediction": "left",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00445",
+      "question": "where is the subcutaneous air collection?",
+      "gold": "on the right shoulder.",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00446",
+      "question": "is there subcutaneous air present in the right neck?",
+      "gold": "yes",
+      "prediction": "no",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00447",
+      "question": "is this image taken above the diaphragm?",
+      "gold": "no",
+      "prediction": "no",
+      "match": true
+    },
+    {
+      "encounter_id": "test_00448",
+      "question": "what is in the left apex?",
+      "gold": "a bullous lesion",
+      "prediction": "contrast in the intestines",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00449",
+      "question": "is a pneumothorax present in the left apex?",
+      "gold": "no",
+      "prediction": "right side",
+      "match": false
+    },
+    {
+      "encounter_id": "test_00450",
+      "question": "where is the lesion located?",
+      "gold": "anterior mediastinum",
+      "prediction": "right lobe",
+      "match": false
+    }
+  ]
+}

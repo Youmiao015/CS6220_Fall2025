@@ -1,0 +1,45 @@
+dataset:
+  name: vqa_rad
+  text_index: ../retriever/vqa_rad/text.index
+  text_metadata: ../retriever/vqa_rad/texts.json
+  image_index: ../retriever/vqa_rad/image.index
+  image_metadata: ../retriever/vqa_rad/image_texts.json
+  json_dir: ../dataset/vqa-rad/json_files
+  images_root: ../dataset/vqa-rad/images
+rewrite:
+  strategy: hyde
+  params:
+    max_versions: 1
+rewrites:
+  - strategy: hyde
+    params:
+      max_versions: 2
+  - strategy: decomposition
+    params:
+      max_subquestions: 3
+reranker:
+  type: crossencoder
+  model_id: cross-encoder/ms-marco-MiniLM-L-6-v2
+  top_k: 8
+llm:
+  provider: transformers
+  model_id: google/flan-t5-large
+  task: text2text-generation
+  max_new_tokens: 128
+  temperature: 0.5
+  top_p: 0.9
+dataset:
+  name: vqa_rad
+  text_index: ../retriever/vqa_rad/text.index
+  text_metadata: ../retriever/vqa_rad/texts.json
+  image_index: ../retriever/vqa_rad/image.index
+  image_metadata: ../retriever/vqa_rad/image_texts.json
+  json_dir: ../dataset/vqa-rad/json_files
+  images_root: ../dataset/vqa-rad/images
+rewrite:
+  strategy: none
+reranker:
+  type: none
+  top_k: 5
+
+
