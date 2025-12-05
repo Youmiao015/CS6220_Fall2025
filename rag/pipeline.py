@@ -3,6 +3,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import List, Optional, Sequence, Set
 
+from PIL import Image
+
 from retriever import Retriever, RetrieverConfig
 
 from .config import PipelineConfig
@@ -18,13 +20,20 @@ class RetrievalPipeline:
     reranker: Reranker
     max_candidates: int = 8
 
-    def retrieve(self, query: str, top_k: int = 2) -> List[dict]:
+    def retrieve(self, query: str, query_image: Optional[Image.Image] = None, top_k: int = 2) -> List[dict]:
         rewritten_queries = self.rewrite_strategy.generate(query)
         candidates: List[Candidate] = []
         seen_ids: Set[str] = set()
 
         for rewritten in rewritten_queries:
-            results = self.retriever.retrieve_by_text(rewritten, top_k=self.max_candidates)
+            # Use hybrid retrieval if image provided, otherwise text-only
+            if query_image is not None:
+                results = self.retriever.retrieve_hybrid(
+                    rewritten, query_image, top_k=self.max_candidates, alpha=0.5
+                )
+            else:
+                results = self.retriever.retrieve_by_text(rewritten, top_k=self.max_candidates)
+
             for item in results:
                 eid = item.get("encounter_id")
                 if not eid or eid in seen_ids:

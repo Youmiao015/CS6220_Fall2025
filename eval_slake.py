@@ -8,11 +8,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from PIL import Image
 from sklearn.metrics import accuracy_score  # type: ignore[import]
+from tqdm import tqdm
 
 from rag import build_pipeline, load_config
 
@@ -64,15 +67,29 @@ def main():
     pipeline = build_pipeline(cfg)
     data = load_split(cfg.dataset.json_dir, args.split, limit=args.limit)
 
+    # Get images root directory from config
+    images_root = Path(cfg.dataset.images_root) if hasattr(cfg.dataset, 'images_root') else Path("dataset/slake/imgs")
+
     gold_answers: List[str] = []
     pred_answers: List[str] = []
     predictions: List[Dict] = []
 
     print(f"[+] Evaluating {len(data)} examples from split '{args.split}'...")
 
-    for example in data:
+    for example in tqdm(data, desc="Evaluating", unit="question"):
         question = f"{example['query_title_en']} {example.get('query_content_en','')}".strip()
-        exemplars = pipeline.retrieve(question, top_k=args.top_k)
+
+        # Load query image if available
+        query_image = None
+        if 'img_name' in example:
+            img_path = images_root / example['img_name']
+            if img_path.exists():
+                try:
+                    query_image = Image.open(img_path).convert('RGB')
+                except Exception as e:
+                    print(f"Warning: Failed to load image {img_path}: {e}")
+
+        exemplars = pipeline.retrieve(question, query_image=query_image, top_k=args.top_k)
         answers = []
         for ex in exemplars:
             resp = (ex.get("responses") or [{}])[0].get("content_en", "")
