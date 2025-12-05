@@ -1,0 +1,32 @@
+dataset:
+  name: slake
+  text_index: ../retriever/slake/text.index
+  text_metadata: ../retriever/slake/texts.json
+  image_index: ../retriever/slake/image.index
+  image_metadata: ../retriever/slake/image_texts.json
+  json_dir: ../dataset/slake/json_files
+  images_root: ../dataset/slake/imgs
+
+# Stage 2: HyDE query rewriting (like VQA-RAD stage2, NO decomposition)
+rewrites:
+  - strategy: hyde
+    params:
+      max_versions: 2
+
+rewrite:
+  strategy: none
+
+# Stage 2: MiniLM cross-encoder reranking
+reranker:
+  type: crossencoder
+  model_id: cross-encoder/ms-marco-MiniLM-L-6-v2
+  top_k: 8
+
+# LLM for query rewriting
+llm:
+  provider: transformers
+  model_id: google/flan-t5-large
+  task: text2text-generation
+  max_new_tokens: 128
+  temperature: 0.5
+  top_p: 0.9

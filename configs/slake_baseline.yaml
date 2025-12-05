@@ -1,0 +1,19 @@
+dataset:
+  name: slake
+  text_index: ../retriever/slake/text.index
+  text_metadata: ../retriever/slake/texts.json
+  image_index: ../retriever/slake/image.index
+  image_metadata: ../retriever/slake/image_texts.json
+  json_dir: ../dataset/slake/json_files
+  images_root: ../dataset/slake/imgs
+
+# Baseline: No query rewriting
+rewrite:
+  strategy: none
+
+rewrites: []
+
+# Baseline: No reranking
+reranker:
+  type: none
+  top_k: 1
