@@ -2,11 +2,15 @@ import argparse
 import json
 import os
 
+# Force CPU mode for M4 compatibility
+os.environ['PYTORCH_ENABLE_MPS_FALLBACK'] = '1'
+
 import faiss
 import numpy as np
 import torch
 from PIL import Image
 from transformers import CLIPModel, CLIPProcessor
+from tqdm import tqdm
 
 
 DEFAULT_IMG_DIR = "dataset/mediqa-wv/images"
@@ -29,19 +33,29 @@ def parse_args():
 def main():
     args = parse_args()
 
+    print(f"[+] Loading CLIP model: {args.clip_model} (CPU mode for M4 compatibility)")
     clip_model = CLIPModel.from_pretrained(args.clip_model, use_safetensors=True)
+    clip_model = clip_model.to('cpu')  # Force CPU
     clip_processor = CLIPProcessor.from_pretrained(args.clip_model)
 
     with open(args.train_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    # Count total images
+    total_images = sum(len(ex["image_ids"]) for ex in data)
+    print(f"[+] Processing {total_images} images from {len(data)} examples...")
+
     image_vecs = []
     image_meta = []
+
+    # Create progress bar for images
+    pbar = tqdm(total=total_images, desc="Building image embeddings", unit="img")
 
     for ex in data:
         for fn in ex["image_ids"]:
             path = os.path.join(args.img_dir, fn)
             if not os.path.exists(path):
+                pbar.update(1)
                 continue
 
             try:
@@ -52,8 +66,12 @@ def main():
                 emb /= np.linalg.norm(emb)
                 image_vecs.append(emb)
                 image_meta.append({"image_id": fn, "source": ex})
+                pbar.update(1)
             except Exception as e:
-                print(f"[WARN] Failed on {fn}: {e}")
+                tqdm.write(f"[WARN] Failed on {fn}: {e}")
+                pbar.update(1)
+
+    pbar.close()
 
     if not image_vecs:
         raise ValueError("No image embeddings generated. Check if your images exist and can be read.")

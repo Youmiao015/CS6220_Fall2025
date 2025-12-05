@@ -5,6 +5,7 @@ import os
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from tqdm import tqdm
 
 
 DEFAULT_TRAIN_FILE = "dataset/mediqa-wv/json_files/train-valid.json"
@@ -29,11 +30,13 @@ def main():
     with open(args.train_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    print(f"[+] Loading embedding model: {args.embedding_model}")
     model = SentenceTransformer(args.embedding_model)
     texts = []
     vectors = []
 
-    for ex in data:
+    print(f"[+] Encoding {len(data)} text examples...")
+    for ex in tqdm(data, desc="Building text embeddings", unit="doc"):
         query = f"{ex['query_title_en']}  {ex['query_content_en']}"
         texts.append(ex)
         emb = model.encode(query, normalize_embeddings=True)
